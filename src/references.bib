@@ -1,0 +1,87 @@
+@book{knuth2001art,
+    title={The Art of Computer Programming: Fundamental Algorithms},
+    author={Knuth, D.E.},
+    number={v. 1},
+    isbn={9780201896831},
+    series={The Art of Computer Programming: Fundamental Algorithms},
+    year={2001},
+    publisher={Addison-Wesley}
+}
+@INPROCEEDINGS{4026885,
+    author={W. Vogels},
+    booktitle={2006 IEEE International Conference on Services Computing (SCC'06)},
+    title={Web Services at Amazon.com},
+    year={2006},
+    pages={xxii-xxii},
+    keywords={Distributed computing;Technological innovation;Web services},
+    doi={10.1109/SCC.2006.116},
+    month={Sept}
+}
+
+@inproceedings{aws,
+author = {Zhang, Ben and Jin, Xin and Ratnasamy, Sylvia and Wawrzynek, John and Lee, Edward A.},
+title = {AWStream: adaptive wide-area streaming analytics},
+year = {2018},
+isbn = {9781450355674},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3230543.3230554},
+doi = {10.1145/3230543.3230554},
+abstract = {The emerging class of wide-area streaming analytics faces the challenge of scarce and variable WAN bandwidth. Non-adaptive applications built with TCP or UDP suffer from increased latency or degraded accuracy. State-of-the-art approaches that adapt to network changes require developer writing sub-optimal manual policies or are limited to application-specific optimizations.We present AWStream, a stream processing system that simultaneously achieves low latency and high accuracy in the wide area, requiring minimal developer efforts. To realize this, AWStream uses three ideas: (i) it integrates application adaptation as a first-class programming abstraction in the stream processing model; (ii) with a combination of offline and online profiling, it automatically learns an accurate profile that models accuracy and bandwidth trade-off; and (iii) at runtime, it carefully adjusts the application data rate to match the available bandwidth while maximizing the achievable accuracy. We evaluate AWStream with three real-world applications: augmented reality, pedestrian detection, and monitoring log analysis. Our experiments show that AWStream achieves sub-second latency with only nominal accuracy drop (2-6\%).},
+booktitle = {Proceedings of the 2018 Conference of the ACM Special Interest Group on Data Communication},
+pages = {236–252},
+numpages = {17},
+keywords = {wide area network, profiling, learning, adaptation},
+location = {Budapest, Hungary},
+series = {SIGCOMM '18}
+}
+
+@inproceedings{dds,
+author = {Du, Kuntai and Pervaiz, Ahsan and Yuan, Xin and Chowdhery, Aakanksha and Zhang, Qizheng and Hoffmann, Henry and Jiang, Junchen},
+title = {Server-Driven Video Streaming for Deep Learning Inference},
+year = {2020},
+isbn = {9781450379557},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3387514.3405887},
+doi = {10.1145/3387514.3405887},
+abstract = {Video streaming is crucial for AI applications that gather videos from sources to servers for inference by deep neural nets (DNNs). Unlike traditional video streaming that optimizes visual quality, this new type of video streaming permits aggressive compression/pruning of pixels not relevant to achieving high DNN inference accuracy. However, much of this potential is left unrealized, because current video streaming protocols are driven by the video source (camera) where the compute is rather limited. We advocate that the video streaming protocol should be driven by real-time feedback from the server-side DNN. Our insight is two-fold: (1) server-side DNN has more context about the pixels that maximize its inference accuracy; and (2) the DNN's output contains rich information useful to guide video streaming. We present DDS (DNN-Driven Streaming), a concrete design of this approach. DDS continuously sends a low-quality video stream to the server; the server runs the DNN to determine where to re-send with higher quality to increase the inference accuracy. We find that compared to several recent baselines on multiple video genres and vision tasks, DDS maintains higher accuracy while reducing bandwidth usage by upto 59\% or improves accuracy by upto 9\% with no additional bandwidth usage.},
+booktitle = {Proceedings of the Annual Conference of the ACM Special Interest Group on Data Communication on the Applications, Technologies, Architectures, and Protocols for Computer Communication},
+pages = {557–570},
+numpages = {14},
+keywords = {deep neural networks, feedback-driven, video analytics, video streaming},
+location = {Virtual Event, USA},
+series = {SIGCOMM '20}
+}
+
+@inproceedings{concierge,
+author = {Huang, Yuyang and Zharfan, Faishal and Hendrawan and Gunawi, Haryadi S and Jiang, Junchen},
+title = {Concierge: Towards Accuracy-Driven Bandwidth Allocation for Video Analytics Applications in Edge Network},
+year = {2024},
+publisher = {IEEE},
+abstract = {When performing inference on sensor data, edge video analytics applications may not always need high-fidelity data, since important information may not appear all the time. Consequently, each edge AI application’s bandwidth demand is highly dynamic. Thus, a shared edge system should dynamically allocate more bandwidth to the applications that need more bandwidth to reach high accuracy at each moment. However, previous bandwidth allocators are ill-suited because they are agnostic to the time-varying impact of bandwidth on each application’s accuracy.},
+booktitle = {2024 IEEE International Conference on Edge Computing {\&} Communications (EDGE 24)},
+keywords = {deep neural networks, feedback-driven, video analytics, video streaming},
+location = {Shenzhen, China}
+}
+
+@inproceedings {videostorm,
+author = {Haoyu Zhang and Ganesh Ananthanarayanan and Peter Bodik and Matthai Philipose and Paramvir Bahl and Michael J. Freedman},
+title = {Live Video Analytics at Scale with Approximation and {Delay-Tolerance}},
+booktitle = {14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)},
+year = {2017},
+isbn = {978-1-931971-37-9},
+address = {Boston, MA},
+pages = {377--392},
+url = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang},
+publisher = {USENIX Association},
+month = mar
+}
+
+@misc{rtx6000, url={https://www.nvidia.com/en-us/design-visualization/rtx-6000/}, journal={NVIDIA}} 
+
+@misc{tc,
+publisher = {The Linux Documentation Project},
+title = {tc - tool for controlling traffic in Linux},
+year = {2024}}
+

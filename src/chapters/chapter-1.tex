@@ -1,0 +1,120 @@
+\chapter{PENDAHULUAN}
+% Hack: gatau kenapa harus gini
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+Bab Pendahuluan secara umum yang dijadikan landasan kerja dan arah kerja penulis tugas akhir, berfungsi mengantar pembaca untuk membaca laporan tugas akhir secara keseluruhan.
+
+\section{Latar Belakang}
+
+Latar Belakang berisi dasar pemikiran, kebutuhan atau alasan yang menjadi ide dari topik tugas akhir. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas.  Saat menuliskan bagian ini, posisikan anda sebagai pembaca – apakah anda tertarik untuk terus membaca?
+
+\section{Rumusan Masalah}
+
+Rumusan Masalah berisi masalah utama yang dibahas dalam tugas akhir. Rumusan masalah yang baik memiliki struktur sebagai berikut:
+
+\begin{enumerate}
+    \item Penjelasan ringkas tentang kondisi/situasi yang ada sekarang terkait dengan topik utama yang dibahas tugas akhir.
+    \item Pokok persoalan dari kondisi/situasi yang ada, dapat dilihat dari kelemahan atau kekurangannya. Bagian ini merupakan inti dari rumusan masalah.
+    \item Elaborasi lebih lanjut yang menekankan pentingnya untuk menyelesaikan pokok persoalan tersebut.
+    \item Usulan singkat terkait dengan solusi yang ditawarkan untuk menyelesaikan persoalan.
+\end{enumerate}
+
+Penting untuk diperhatikan bahwa persoalan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di bab Evaluasi apakah terselesaikan atau tidak.
+
+\section{Tujuan}
+
+Tuliskan tujuan utama dan/atau tujuan detil yang akan dicapai dalam pelaksanaan tugas akhir. Fokuskan pada hasil akhir yang ingin diperoleh setelah tugas akhir diselesaikan, terkait dengan penyelesaian persoalan pada rumusan masalah. Penting untuk diperhatikan bahwa tujuan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di akhir pelaksanaan tugas akhir apakah tercapai atau tidak.
+
+\section{Batasan Masalah}
+
+Tuliskan batasan-batasan yang diambil dalam pelaksanaan tugas akhir. Batasan ini dapat dihindari (tidak perlu ada) jika topik/judul tugas akhir dibuat cukup spesifik.
+
+\section{Metodologi}
+
+Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan ini spesifik untuk menyelesaikan persoalan tugas akhir. Tahapan studi literatur tidak perlu dituliskan karena ini adalah pekerjaan yang harus Anda lakukan selama proses pelaksanaan tugas akhir. Bila rumusan masalah berbentuk aksional, cantumkan diagram blok dari sistem. Jika tidak, cantumkan diagram alir. Contoh diagram blok dari sistem ditunjukkan pada Gambar \ref{figure:contoh_diagram_blok_sistem}.
+
+\begin{figure}
+	\small
+	\centering
+	\begin{tikzpicture}[auto, node distance=2cm, >=latex']
+		% Boks persepsi
+		\node (tekssubsistem1) [] {Subsistem 1};
+		\node [block, below of=tekssubsistem1, node distance=1cm] (subsubsistem1) {Subsubsistem 1};
+		\node [block, below of=subsubsistem1, node distance=1.5cm] (subsubsistem2) {Subsubsistem 2};
+		\node[fit=(tekssubsistem1) (subsubsistem2), dashed,draw,inner sep=0.2cm] (subsistem1) {};
+		
+		% Boks Navigasi
+		\node (tekssubsistem2) [right=1.5cm of tekssubsistem1] {Subsistem 2};
+		\node [block, below of=tekssubsistem2, node distance=1cm] (subsubsistem3) {Subsubsistem 3};
+		\node [block, below of=subsubsistem3, node distance=1.5cm] (subsubsistem4) {Subsubsistem 4};
+		\node[fit=(tekssubsistem2) (subsubsistem4), dashed,draw,inner sep=0.2cm] (subsistem2) {};
+		
+		% Subsistem lain
+		\node [block, left of=subsistem1, node distance=5cm] (subsistem3) {Subsistem 3};
+		\node [block, above of=tekssubsistem2] (subsistem4) {Subsistem 4};
+		
+		\draw[->] (subsistem3) -- node {} (subsistem1);
+		\draw[->] (subsistem1) -- node {} (subsistem2);
+		\draw[<->] (subsistem1) |- node {} (subsistem4);
+		\draw[<->] (subsistem4) -- node {} (subsistem2);
+	\end{tikzpicture}
+	\caption{Contoh Diagram Blok Sistem}
+	\label{figure:contoh_diagram_blok_sistem}
+\end{figure}
+
+\section{Sistematika Penulisan}
+
+Subbab ini berisi penjelasan ringkas isi per bab. Penjelasan ditulis satu paragraf per bab buku.
+
+\section{Jadwal Pelaksanaan dan Anggaran}
+
+Subbab ini berisi jadwal pelaksanaan tugas akhir dan anggaran pelaksanaan tugas akhir. Contoh jadwal pelaksanaan tugas akhir ditunjukkan pada Gambar \ref{figure:contoh_jadwal_pelaksanaan} dan contoh anggaran pelaksanaan tugas akhir dirangkum dalam Tabel \ref{table:contoh_anggaran}.
+
+\begin{figure}[h]
+	\small
+	\centering
+	\begin{ganttchart}[
+		hgrid,
+		vgrid,
+		y unit chart=0.5cm,
+		y unit title=0.6cm,
+		title height=1,
+		x unit=1mm,
+		time slot format=isodate,
+		time slot unit=day]{2020-09-01}{2020-12-31}
+		\gantttitlecalendar{year, month, week=1} \\
+		\ganttgroup{Grup Aktivitas 1}{2020-09-01}{2020-09-30} \\
+		\ganttbar{Aktivitas 1}{2020-09-01}{2020-09-07} \\
+		\ganttbar{Aktivitas 2}{2020-09-08}{2020-09-30} \\
+		\ganttgroup{Grup Aktivitas 2}{2020-09-21}{2020-12-31} \\
+		\ganttbar{Aktivitas 3}{2020-09-21}{2020-10-07} \\
+		\ganttbar{Aktivitas 4}{2020-10-15}{2020-11-07} \\
+		\ganttbar{Aktivitas 5}{2020-11-15}{2020-12-31} \\
+		\ganttgroup{Grup Aktivitas 3}{2020-10-01}{2020-12-31}
+	\end{ganttchart}
+	\caption{Contoh Jadwal Pelaksanaan Tugas Akhir}
+	\label{figure:contoh_jadwal_pelaksanaan}
+\end{figure}
+
+\begin{table}[htbp]
+	\small
+	\centering
+	\caption{Anggaran Biaya Pelaksanaan Tugas Akhir}
+	\label{table:contoh_anggaran}
+	\begin{tabular}{lcrr}
+		\toprule
+		\multicolumn{1}{l}{\textbf{Hal}} & \multicolumn{1}{l}{\textbf{Satuan}} & \multicolumn{1}{l}{\textbf{Harga Satuan}} & \multicolumn{1}{r}{\textbf{Jumlah}}\\
+		\midrule
+		\textbf{Grup Keperluan 1} \\
+		Keperluan 1 & 1 buah & Rp1.000.000,00 & Rp1.000.000,00 \\
+		Keperluan 2 & 1 set & Rp400.000,00 & Rp400.000,00 \\
+		\midrule
+		\textbf{Grup Keperluan 2} \\
+		Keperluan 3 & 1 buah & Rp2.000.000,00 & Rp2.000.000,00 \\
+		Keperluan 4 & 2 buah & Rp300.000,00 & Rp600.000,00 \\
+		\midrule
+		\textbf{Total} & & & Rp4.000.000,00 \\
+		\bottomrule
+	\end{tabular}
+\end{table}

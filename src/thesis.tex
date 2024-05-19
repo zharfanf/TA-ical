@@ -1,0 +1,144 @@
+%--------------------------------------------------------------------%
+%
+% Berkas utama templat LaTeX.
+%
+% author Petra Barus, Peb Ruswono Aryan
+% updated by Dionesius Agung (2020)
+% adapted by Irfan Tito Kurniawan (2020)
+% adapted for ET by Rama Rahardi (2021)
+%--------------------------------------------------------------------%
+%
+% Berkas ini berisi struktur utama dokumen LaTeX yang akan dibuat.
+%
+%--------------------------------------------------------------------%
+\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
+
+\input{config/et-itb-thesis.sty}
+
+\makeatletter
+
+\makeatother
+
+\begin{document}
+
+    %Basic configuration
+    % \title{Enhancing Video Analytics Accuracy via
+    % Real-time Automated Video Compression Parameter Tuning as
+    % well as Enabling Resource Allocator}
+    % \title{Pengembangan Desain Sistem \emph{Resource Allocator} 
+    % Berbasis Sensitivitas untuk Meningkatkan Akurasi pada Aplikasi
+    % \emph{Video Analytics}}
+    \title{Pengembangan Desain Sistem \emph{Sensitivity-based Resource Allocator} 
+    untuk Meningkatkan Akurasi pada Aplikasi
+    \emph{Video Analytics}}
+    % Pengembangan desain sistem Resource Allocator berbasis sensitivitas untuk meningkatkan akurasi pada
+    % Aplikasi Video Analytics
+    \date{\today}
+    \author{
+        Faishal Zharfan \\
+        NIM: 18119002
+    }
+
+    \pagenumbering{roman}
+    \setcounter{page}{0}
+
+    \input{chapters/cover}
+    \input{chapters/abstract-id}
+	\input{chapters/abstract-en}
+    \input{chapters/approval-single-advisor}
+    \input{chapters/authorization-single-advisor}
+    \input{chapters/usage}
+    \input{chapters/dedication}
+
+    \pagestyle{plain}
+
+    % Frontmatter
+    \input{chapters/forewords}
+
+    % Hacks to capitalize all chapter-level titles in ToC
+    \renewcommand*\contentsname{DAFTAR ISI}
+    \renewcommand*\appendixtocname{DAFTAR LAMPIRAN}
+    \renewcommand*\listfigurename{DAFTAR GAMBAR DAN ILUSTRASI}
+    \renewcommand*\listtablename{DAFTAR TABEL}
+    \renewcommand*\bibname{DAFTAR PUSTAKA}
+
+    % Lanjutan frontmatter
+    \tableofcontents
+    \listofappendices
+    {%
+		\let\oldnumberline\numberline%
+		\renewcommand{\numberline}{\figurename~\oldnumberline}%
+		\listoffigures%
+	}
+	{%
+		\let\oldnumberline\numberline%
+		\renewcommand{\numberline}{\tablename~\oldnumberline}%
+		\listoftables%
+	}
+	\input{chapters/abbreviations}
+    
+    %----------------------------------------------------------------%
+    % Konfigurasi Bab
+    %----------------------------------------------------------------%
+    %------------------------------------------------------%
+    % Hack: 2 baris berikut dipindah ke chapter-1.tex
+    %   previous method: nomor halaman sebelum BAB I jadi 0
+    %------------------------------------------------------%
+    % \pagenumbering{arabic}
+    % \setcounter{page}{0}
+    \renewcommand{\chaptername}{BAB}
+    %\renewcommand{\thechapter}{\arabic{chapter}}
+    %\renewcommand{\thechapter}{\Roman{chapter}}
+    %----------------------------------------------------------------%
+
+    %----------------------------------------------------------------%
+    % Dafter Bab
+    % Untuk menambahkan daftar bab, buat berkas bab misalnya `chapter-6` di direktori `chapters`, dan masukkan ke sini.
+    %----------------------------------------------------------------%
+    \input{chapters/chapter-1}
+    \input{chapters/chapter-2}
+    \input{chapters/chapter-3}
+    \input{chapters/chapter-4}
+    \input{chapters/chapter-5}
+    %----------------------------------------------------------------%
+
+    % Daftar pustaka
+    %\begingroup
+    %    \renewcommand{\baselinestretch}{1.0}
+    %    \printbibliography[heading=bibintoc]
+    %\endgroup
+    
+    \clearpage
+    \bibliographystyle{IEEEtran}
+    \bibliography{references}
+    
+    % Before:
+    % ---
+    % Index
+    % \appendix
+    % \addcontentsline{toc}{part}{Lampiran}
+    % \part*{Lampiran}
+    % ---
+
+    % Format judul bab lampiran
+    \titleformat{\chapter}[hang]
+      {\large\bfseries}
+      {\chaptertitlename\ \thechapter}{1em}
+        {\large\bfseries}
+    \titlespacing*{\chapter}{0pt}{-1.5\baselineskip}{\parskip}
+    
+    \clearpage
+    \begin{center}
+        \topskip0pt
+        \vspace*{\fill}
+        \large\textbf{LAMPIRAN}\normalsize
+        \vspace*{\fill}
+    \end{center}
+    \clearpage
+    
+    \begin{appendices}
+        \input{chapters/appendix-1}
+        \input{chapters/appendix-2}
+    \end{appendices}
+
+\end{document}

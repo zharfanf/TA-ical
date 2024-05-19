@@ -1,0 +1,403 @@
+%-------------------------------------------------------------------%
+%
+% Konfigurasi dokumen LaTeX untuk laporan tesis IF ITB
+%
+% @author Petra Novandi
+% updated by Dionesius Agung (2020)
+% adapted by Irfan Tito Kurniawan (2020)
+%-------------------------------------------------------------------%
+%
+% Berkas asli berasal dari Steven Lolong
+%
+%-------------------------------------------------------------------%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  DOCUMENT LAYOUT AND FORMATTING  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document layout
+\usepackage[top=3cm,bottom=3cm,left=4cm,right=3cm,a4paper]{geometry}
+
+% Uncomment these two packages if you want to use
+%  the Times New Roman font for your document
+% \usepackage{mathptmx}
+% \usepackage{newtxtext}
+
+% Judul bahasa Indonesia
+\usepackage[bahasa]{babel}
+
+% Spacing 1.5
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.5}
+
+% Prevent overfull (or underfull) if possible
+%\setlength{\emergencystretch}{25pt}
+
+% Avoid widow and orphan lines if possible
+\widowpenalty500
+\clubpenalty10000
+
+% Hyphenation penalty
+\include{hyphenation-id}
+\hyphenpenalty=10000
+\tolerance=1
+\sloppy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  BIBLIOGRAPHY AND CITATION  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% use package biblatex
+\usepackage[backend=bibtex,
+language=english,
+bibstyle=authoryear,
+citestyle=authoryear,
+sorting=nyt,
+url=false,
+maxcitenames=2,
+maxnames=2,
+dashed=false,
+giveninits=true]{biblatex}
+\DeclareNameAlias{author}{last-first}
+
+\DeclareLanguageMapping{bahasa}{english}
+% Translate bibliography strings ke bahasa indonesia
+%   (karena 'bahasa' belum di-support)
+\DefineBibliographyStrings{bahasa}{%
+	bibliography = {Daftar Pustaka},
+	references = {Referensi},
+	page = {hal\adddot},
+	pages = {hal\adddot},
+	and = {dan},
+	techreport = {Dok. teknis},
+	phdthesis = {Disertasi doktoral\adddot},
+	andothers = {dkk\adddot}
+}
+
+% Field berikut tidak ditulis di daftar pustaka
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearfield{isbn}}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{doi}}
+\AtEveryBibitem{\clearfield{eprint}}
+\AtEveryBibitem{\clearfield{archivePrefix}}
+\AtEveryBibitem{\clearfield{primaryClass}}
+
+% Format entri daftar pustaka
+
+%% Beri titik setelah judul
+\DeclareFieldFormat
+[article,inbook,incollection,inproceedings,
+patent,unpublished,misc]
+{title}{#1\isdot}
+
+%% Judul buku ditulis italic
+\DeclareFieldFormat
+[thesis]
+{title}{\emph{#1}\isdot}
+
+%% Hilangkan kata "Dalam:" di antara judul artikel dan judul jurnal
+\renewbibmacro{in:}{}
+
+%% Format penulisan volume dan nomor pada jurnal: vol(num) e.g. 5(1)
+\renewbibmacro*{volume+number+eid}{%
+	\printfield{volume}%
+	\printfield{number}%
+	\setunit{\addcomma\space}%
+	\printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+% Format citation
+\renewcommand*{\nameyeardelim}{\addcomma\space}
+
+% Setting spasi di halaman daftar pustaka
+\setlength\bibitemsep{0pt}
+
+%%%%%%%%%%%%%%
+%  PACKAGES  %
+%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage{blindtext}
+\usepackage{sectsty}
+\usepackage{chngcntr}
+\usepackage{etoolbox}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[chapter]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{comment}
+
+%%%%%%%%%%%%%%$$%%%%%%%%%
+%  CHAPTER AND SECTION  %
+%%%%%%%%%%%%%%%%$$%%%%%%%
+% Format judul bab
+\chapterfont{\centering \large}
+\titleformat{\chapter}[display]
+{\large\centering\bfseries}
+{\chaptertitlename\ \thechapter}{0em}
+{\large\bfseries\MakeUppercase}
+\titlespacing*{\chapter}
+{0pt}
+{-1.5\baselineskip}
+{1\baselineskip}
+
+% Format judul section (dan sub(sub)section)
+\titleformat*{\section}{\bfseries\normalsize}
+\titleformat*{\subsection}{\bfseries\normalsize}
+\titleformat*{\subsubsection}{\bfseries\normalsize}
+\titlespacing*{\section}{0pt}{1ex}{0pt}
+\titlespacing*{\subsection}{0pt}{1ex}{0pt}
+\titlespacing*{\subsubsection}{0pt}{1ex}{0pt}
+
+% Kedalaman hierarki section (paling dalam subsubsection)
+\setcounter{secnumdepth}{3}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  TABLE OF CONTENTS, LISTS OF FIGURES & TABLES  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[titles]{tocloft}
+\usepackage[titletoc]{appendix}
+\usepackage{tocbibind}
+\usepackage{etoolbox}
+
+% Kedalaman hierarki maksimum ToC
+% (yang masuk ToC hanya sampai subsection: I.1.1.)
+\setcounter{tocdepth}{2}
+
+% Hilangkan gap antar-bab di ToC
+\setlength{\cftbeforechapskip}{0pt}
+
+% Tambah kata "BAB" sebelum nomor bab di daftar isi
+\newlength{\mylen} % a scratch length
+
+\renewcommand{\cftchappresnum}{BAB~} % BAB before number in ToC
+\settowidth{\mylen}{\bfseries\cftchappresnum\cftchapaftersnum} % extra space
+\addtolength{\cftchapnumwidth}{\mylen} % add the extra space
+
+% Hilangkan indentasi di entri LoF dan LoT dan tambahkan ruang antara nomor dengan caption
+\cftsetindents{figure}{0em}{2.75em}
+\cftsetindents{table}{0em}{2.75em}
+
+% Pisah daftar lampiran dari ToC
+%%%
+\renewcommand{\appendixtocname}{Daftar Lampiran}
+
+\makeatletter
+\let\oldappendix\appendices
+
+\renewcommand{\appendices}{%
+	\clearpage
+	% From now, everything goes to the app file and not to the toc
+	\let\tf@toc\tf@app
+	\addtocontents{app}{\protect\setcounter{tocdepth}{1}}
+	\immediate\write\@auxout{%
+		\string\let\string\tf@toc\string\tf@app^^J
+	}
+	\oldappendix
+}%
+
+\newcommand{\listofappendices}{%
+	\begingroup
+	\renewcommand{\contentsname}{\appendixtocname}
+	
+	\addtolength\cftchapnumwidth{-\mylen}%
+	\renewcommand{\cftchappresnum}{~}%
+	\settowidth\mylen{\bfseries\cftchappresnum\cftchapaftersnum}%
+	\addtolength\cftchapnumwidth{\mylen}
+	
+	\let\@oldstarttoc\@starttoc
+	\def\@starttoc##1{\@oldstarttoc{app}}
+	% Reusing the code for \tableofcontents with different
+	%   \contentsname and different file handle app
+	\tableofcontents
+	\endgroup
+}
+\makeatother
+%%%
+
+% Hilangkan gap antara entri gambar & tabel antarbab di daftar tabel 
+% dan daftar gambar (hanya terlihat kalau ada gambar/tabel di >1 bab)
+\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
+\addtocontents{lof}{\protect\noaddvspace}
+\addtocontents{lot}{\protect\noaddvspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  FLOATS: FIGURES, TABLES, ALGORITHMS  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Before:
+% ---
+% Counter untuk figure dan table.
+% \counterwithin{figure}{section}
+% \counterwithin{table}{section}
+% ---
+
+\usepackage[labelsep=period,
+justification=justified,
+format=hang]{caption}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{multirow}
+%% Hack subfigure cross-ref agar pakai tanda kurung
+%%   e.g. Gambar II.2(a), bukan Gambar II.2a
+%% (method recommended in subcaption package documentation)
+\renewcommand\thesubfigure{(\alph{subfigure})}
+
+% Counter untuk gambar dan tabel
+\renewcommand*{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand*{\thetable}{\thechapter.\arabic{table}}
+
+% Jarak spasi antara float dengan teks utama
+\captionsetup[figure]{belowskip=-1em}
+\captionsetup[subfigure]{belowskip=0pt}
+\setlength{\textfloatsep}{2\baselineskip}
+\setlength{\intextsep}{2\baselineskip}
+
+% Spasi single di environment table
+\AtBeginEnvironment{table}
+{
+	\renewcommand{\baselinestretch}{1.0}
+	\renewcommand{\arraystretch}{1.2}
+}
+
+% Font lebih kecil untuk tabel
+\AtBeginEnvironment{tabular}
+{\small}
+
+% Spasi single di environment algorithm
+\AtBeginEnvironment{algorithm}
+{\renewcommand{\baselinestretch}{1.0}}
+
+% Rename "Algorithm" into "Algoritma"
+\makeatletter
+\renewcommand*{\ALG@name}{Algoritma}
+\newcommand{\algorithmname}{\ALG@name}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%  MATHS AND EQUATIONS  %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% Counter untuk equation
+\renewcommand*{\theequation}{\thechapter.\arabic{equation}}
+
+% Allow page breaks on long equations
+\allowdisplaybreaks[1-4]
+
+% Operator dan notasi custom tambahan
+% contoh: argmin dan argmax
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+% contoh: notasi bayes p(x | y)
+\newcommand{\bayes}[2]{p(#1 \mid #2)\xspace}
+
+%%%%%%%%%%%%%%%%%
+%  GANTT CHART  %
+%%%%%%%%%%%%%%%%%
+\usepackage{changepage}
+\usepackage{pgfgantt}
+\ganttset{calendar week text={\currentweek}}
+
+%%%%%%%%%%%%%%
+%  DIAGRAMS  %
+%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, fit}
+\tikzstyle{block} = [rectangle, draw, minimum height=3em, minimum width=6em, text centered]
+\tikzstyle{pinstyle} = [pin edge={to-, thin, black}]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  GLOSSARY AND ABBREVIATIONS  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Load package acronym dan indexonlyfirst untuk hanya 
+% menunjukkan kemunculan pertama singkatan
+\usepackage[automake, nomain, abbreviations, indexonlyfirst]{glossaries-extra}
+
+% Buat glossary baru khusus untuk lambang
+\newglossary[slg]{symbols}{syi}{syg}{Daftar Lambang}
+
+% Buat glossary
+\makeglossaries
+
+% Hilangkan judul dari glossary
+\renewcommand{\glossarysection}[2][]{}
+
+% Style glossary untuk Daftar Singkatan
+\newglossarystyle{daftarsingkatan}{
+	\renewcommand{\baselinestretch}{1.0}
+	
+	% Dasarkan style pada style long3colheader
+	\setglossarystyle{long3colheader}
+	
+	% Ganti header glossary
+	\renewcommand{\glossaryheader}{
+		Singkatan &
+		Nama &
+		\centering Kemunculan Pertama\\
+		\endhead
+	}
+	
+	% Ganti lebar kolom glossary
+	\renewcommand{\glsdescwidth}{7cm}
+	\renewcommand{\glspagelistwidth}{4cm}
+	
+	% Buat line break dalam sel menjadi 1 spasi
+	\renewcommand{\arraystretch}{1.0}
+	\selectfont
+	
+	% Ganti isi glossary menjadi singkatan - deskripsi - kemunculan pertama
+	\renewcommand{\glossentry}[2]{
+		\glsentryitem{##1}\glstarget{##1}{\glossentryname{##1}} 
+		& \glossentrydesc{##1}
+		& \centering ##2
+		\tabularnewline
+	}
+	
+	\renewcommand{\glsgroupskip}{}
+}
+
+% Style glossary untuk Daftar Lambang
+\newglossarystyle{daftarlambang}{
+	\renewcommand{\baselinestretch}{1.0}
+	
+	% Dasarkan style pada style long3colheader
+	\setglossarystyle{long3colheader}
+	
+	% Hack untuk mengubah lebar kolom lambang
+	% Ubah p{...cm} untuk mensejajarkan kolom nama singkatan dengan lambang
+	\renewenvironment{theglossary}{\begin{longtable}{p{1.7cm}p{\glsdescwidth}p{\glspagelistwidth}}}{\end{longtable}}
+	
+	% Ganti header glossary
+	\renewcommand{\glossaryheader}{
+		Lambang &
+		&
+		\centering \\
+		\endhead
+	}
+	
+	% Ganti lebar kolom glossary
+	\renewcommand{\glsdescwidth}{7cm}
+	\renewcommand{\glspagelistwidth}{4cm}
+	
+	% Buat line break dalam sel menjadi 1 spasi
+	\renewcommand{\arraystretch}{1.0}
+	\selectfont
+	
+	% Ganti isi glossary menjadi lambang - deskripsi - kemunculan pertama
+	\renewcommand{\glossentry}[2]{
+		\glsentryitem{##1}\glstarget{##1}{\glossentryname{##1}} 
+		& \glossentrydesc{##1}
+		& \centering ##2
+		\tabularnewline
+	}
+	
+	\renewcommand{\glsgroupskip}{}
+}
