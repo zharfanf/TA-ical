@@ -50,6 +50,18 @@ Y.~Huang, F.~Zharfan, Hendrawan, H.~S. Gunawi, and J.~Jiang, ``Concierge:
   Computing {\&} Communications (EDGE 24)}.\hskip 1em plus 0.5em minus
   0.4em\relax IEEE, 2024.
 
+\bibitem{4g}
+\BIBentryALTinterwordspacing
+ [Online]. Available: \url{https://www.4g.co.uk/how-fast-is-4g/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{5g}
+\BIBentryALTinterwordspacing
+T.~Reply, ``What is 5g - an introduction to the technology.'' [Online].
+  Available:
+  \url{https://www.reply.com/en/telco-and-media/5g-mastering-the-magic-triangle}
+\BIBentrySTDinterwordspacing
+
 \bibitem{knuth2001art}
 D.~Knuth, \emph{The Art of Computer Programming: Fundamental Algorithms}, ser.
   The Art of Computer Programming: Fundamental Algorithms.\hskip 1em plus 0.5em

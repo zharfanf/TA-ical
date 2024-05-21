@@ -2,7 +2,7 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{glssymbols}\relax \glsresetentrylist %
 \glossentry{symb:avogadro}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}}}%
+		\setentrycounter[]{page}\glsnumberformat{5}}}%
 \glossentry{symb:pi}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}}}%
+		\setentrycounter[]{page}\glsnumberformat{5}}}%
 \end{theglossary}\glossarypostamble

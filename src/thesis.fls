@@ -1,8 +1,8 @@
-PWD /Users/macbook-air/Documents/TA-ical/src
+PWD /Users/macbook-air/TA-ical/src
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/macbook-air/Documents/TA-ical/src/thesis.tex
+INPUT /Users/macbook-air/TA-ical/src/thesis.tex
 OUTPUT thesis.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/report.cls

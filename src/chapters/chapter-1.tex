@@ -3,11 +3,39 @@
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-Bab Pendahuluan secara umum yang dijadikan landasan kerja dan arah kerja penulis tugas akhir, berfungsi mengantar pembaca untuk membaca laporan tugas akhir secara keseluruhan.
+% Bab Pendahuluan secara umum yang dijadikan landasan kerja dan arah kerja penulis tugas akhir, berfungsi mengantar pembaca untuk membaca laporan tugas akhir secara keseluruhan.
 
 \section{Latar Belakang}
 
-Latar Belakang berisi dasar pemikiran, kebutuhan atau alasan yang menjadi ide dari topik tugas akhir. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas.  Saat menuliskan bagian ini, posisikan anda sebagai pembaca – apakah anda tertarik untuk terus membaca?
+% Latar Belakang berisi dasar pemikiran, kebutuhan atau alasan yang menjadi ide dari topik tugas akhir. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas.  Saat menuliskan bagian ini, posisikan anda sebagai pembaca – apakah anda tertarik untuk terus membaca?
+Pada 5 tahun terakhir, perkembangan teknologi internet merupakan salah satu yang paling masif.
+Hal ini dibuktikan dengan kehadiran standar komunikasi mobile 5G pada tahun 2019. 5G tidak hanya meningkatkan kecepatan internet menjadi
+10Gb/s dari yang awalnya hanya 300Mb/s pada 4G LTE-Advanced \cite{4g}, namun 5G memiliki 2 \textit{use-case} lainnya
+yakni \textit{Massive Machine-Type Communication} dan \textit{Ultra-Reliable Low-Latency Communication} \cite{5g}. 
+
+
+% Security
+Hadirnya \textit{Massive Machine-Type Communication} memungkinkan banyak perangkat yang dapat terkoneksi dalam sebuah jaringan.
+Hal ini dapat mendukung keberlangsungan sistem IoT atau \textit{Internet of Things}. IoT adalah sebuah teknologi komunikasi
+yang memungkinkan perangkat-perangkat dalam sebuah jaringan dapat berkomunikasi satu sama lainnya sehingga menciptakan sebuah sistem cerdas.
+Perangkat-perangkat yang dimaksud dalam kasus ini adalah berbagai macam sensor. Data yang dikumpulkan dari berbagai macam sensor tersebut akan diproses
+oleh sebuah perangkat komputasi terpusat yang saat ini dikenal dengan istilah \textit{cloud computing}
+
+% Edge Computing
+Cloud computing memiliki beberapa keterbatasan yakni lokasi yang terbatas sehingga memiliki waktu processing yang cukup lama
+dan tidak cocok diterapkan pada sistem yang real-time. Untuk mengatasi masalah ini, lahirlah sebuah istilah baru, yakni Edge Computing.
+Edge Computing adalah sebuah paradigma dalam cloud computing yang bertujuan untuk mendekatkan proses komputasi pada \textit{edge device}
+sehingga pemrosesan dapat dilakukan dalam waktu singkat.
+
+Masalah yang sering ditemukan pada Edge Computing adalah ketersediaan bandwidth terutama pada perangkat yang memiliki ukuran data yang relatif besar seperti
+kamera keamanan. Kamera akan mengirimkan video pada server untuk dilakukan proses deteksi objek (kendaraan, orang, objek lainnya). Untuk mengatasi
+masalah keterbatasan bandwidth, maka diperlukan lah sebuah sistem cerdas yang dapat mengalokasikan bandwidth secara periodik yang bergantung pada kebutuhan tiap kamera sehingga
+didapatkan hasil akurasi yang maksimal.
+
+Dari perumusan masalah tersebut, pada tugas akhir ini akan dirancang sebuah sistem \textit{resource allocator} yang berbasis
+sensitivitas sehingga dapat meminimalkan trade-off antara bandwidth dan akurasi pada tiap kamera.
+
+% internet -> security issue -> IoT -> edge computing
 
 \section{Rumusan Masalah}
 

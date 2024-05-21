@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  21 MAY 2024 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  20 MAY 2024 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,7 +1291,7 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count418
 \l__pdf_internal_box=\box97
 )
-(/Users/macbook-air/TA-ical/build/thesis.aux)
+(/Users/macbook-air/Documents/TA-ical/build/thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -1388,8 +1388,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
 LaTeX Info: Redefining \nameref on input line 22.
- (/Users/macbook-air/TA-ical/build/thesis.out)
-(/Users/macbook-air/TA-ical/build/thesis.out)
+ (/Users/macbook-air/Documents/TA-ical/build/thesis.out)
+(/Users/macbook-air/Documents/TA-ical/build/thesis.out)
 \@outlinefile=\write8
 \openout8 = `thesis.out'.
 
@@ -1559,37 +1559,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 ]) (./chapters/forewords.tex
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 9.
-) [7
+ [7
 
 
-]
-(/Users/macbook-air/TA-ical/build/thesis.toc [8
+]) [8]
+(/Users/macbook-air/Documents/TA-ical/build/thesis.toc [9
 
 ])
 \tf@toc=\write9
 \openout9 = `thesis.toc'.
 
- [9]
-(/Users/macbook-air/TA-ical/build/thesis.app)
+ [10]
+(/Users/macbook-air/Documents/TA-ical/build/thesis.app)
 \tf@app=\write10
 \openout10 = `thesis.app'.
-
- [10
-
-]
-(/Users/macbook-air/TA-ical/build/thesis.lof)
-\tf@lof=\write11
-\openout11 = `thesis.lof'.
 
  [11
 
 ]
-(/Users/macbook-air/TA-ical/build/thesis.lot)
+(/Users/macbook-air/Documents/TA-ical/build/thesis.lof)
+\tf@lof=\write11
+\openout11 = `thesis.lof'.
+
+ [12
+
+]
+(/Users/macbook-air/Documents/TA-ical/build/thesis.lot)
 \tf@lot=\write12
 \openout12 = `thesis.lot'.
 
- (./chapters/abbreviations.tex
-[12
+
+(./chapters/abbreviations.tex [13
 
 ] (./thesis.gls-abr
 Overfull \hbox (14.32646pt too wide) in paragraph at lines 2--2
@@ -1626,7 +1626,7 @@ Overfull \hbox (7.54721pt too wide) in alignment at lines 2--8
  [] [] [] 
  []
 
-) [13
+) [14
 
 
 ]) (./chapters/chapter-1.tex
@@ -1634,13 +1634,13 @@ BAB 1.
 [1
 
 
-]
+] [2]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 38.
+(Font)              scaled to size 10.95pt on input line 66.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
+(Font)              scaled to size 10.95pt on input line 115.
 
-Overfull \hbox (38.91763pt too wide) in paragraph at lines 95--96
+Overfull \hbox (38.91763pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
@@ -1648,10 +1648,10 @@ Overfull \hbox (38.91763pt too wide) in paragraph at lines 95--96
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
-) (./chapters/chapter-2.tex [2] [3]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+) (./chapters/chapter-2.tex [3] [4]
 BAB 2.
-<resources/chapter-2-infrastructure-diagram.png, id=316, 702.625pt x 406.51875p
+<resources/chapter-2-infrastructure-diagram.png, id=329, 702.625pt x 406.51875p
 t>
 File: resources/chapter-2-infrastructure-diagram.png Graphic file (type png)
 <use resources/chapter-2-infrastructure-diagram.png>
@@ -1661,19 +1661,19 @@ n input line 24.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4
+[5
 
 ]
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 53.
 
-[5 <./resources/chapter-2-infrastructure-diagram.png>])
+[6 <./resources/chapter-2-infrastructure-diagram.png>])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 99.
 
-(./chapters/chapter-3.tex [6]
+(./chapters/chapter-3.tex [7]
 BAB 3.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1688,9 +1688,9 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-4.tex [7
+(./chapters/chapter-4.tex [8
 
-] [8]
+] [9]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1704,14 +1704,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[9
+[10
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 101.
 
-(./chapters/chapter-5.tex [10]
+(./chapters/chapter-5.tex [11]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1722,16 +1722,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-[11
+[12
 
-] (./thesis.bbl) [12
+] (./thesis.bbl) [13
 
 
-] [13
+] [14
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [14
+) (./chapters/appendix-2.tex [15
 
 
 
@@ -1742,17 +1742,17 @@ Lampiran B.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 179.
 See the caption package documentation for explanation.
 
-[15
+[16
 
-] (/Users/macbook-air/TA-ical/build/thesis.aux)
+] (/Users/macbook-air/Documents/TA-ical/build/thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: C9019617245167C393F298E46F820DF8;4629.
  ) 
 Here is how much of TeX's memory you used:
- 39208 strings out of 478268
- 783261 string characters out of 5846347
- 1178930 words of memory out of 5000000
- 56501 multiletter control sequences out of 15000+600000
+ 39214 strings out of 478268
+ 783488 string characters out of 5846347
+ 1177978 words of memory out of 5000000
+ 56503 multiletter control sequences out of 15000+600000
  519781 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,9n,120p,1279b,967s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1767,11 +1767,11 @@ ype1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
 ic/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/
 ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (29 pages, 534391
- bytes).
+Output written on /Users/macbook-air/Documents/TA-ical/build/thesis.pdf (31 pag
+es, 537426 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 104 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

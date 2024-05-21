@@ -37,4 +37,3 @@ Terima Kasih
 * Dionesius Agung
 * Irfan Tito Kurniawan
 # TA-ical
-# TA-ical
