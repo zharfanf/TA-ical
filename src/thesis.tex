@@ -14,6 +14,7 @@
 \documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
 
 \input{config/et-itb-thesis.sty}
+% \input{natbib.sty}
 
 \makeatletter
 
@@ -109,7 +110,10 @@
     %\endgroup
     
     \clearpage
-    \bibliographystyle{IEEEtran}
+    % \bibliographystyle{IEEEtran}
+    % \bibliographystyle{apacite}
+    \bibliographystyle{apalike}
+    % \setcitestyle{authoryear,open={((},close={))}}
     \bibliography{references}
     
     % Before:
