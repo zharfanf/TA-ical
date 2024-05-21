@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  19 MAY 2024 20:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  21 MAY 2024 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,7 +1291,7 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count418
 \l__pdf_internal_box=\box97
 )
-(/Users/macbook-air/Documents/TA-ical/build/thesis.aux)
+(/Users/macbook-air/TA-ical/build/thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -1388,8 +1388,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
 LaTeX Info: Redefining \nameref on input line 22.
- (/Users/macbook-air/Documents/TA-ical/build/thesis.out)
-(/Users/macbook-air/Documents/TA-ical/build/thesis.out)
+ (/Users/macbook-air/TA-ical/build/thesis.out)
+(/Users/macbook-air/TA-ical/build/thesis.out)
 \@outlinefile=\write8
 \openout8 = `thesis.out'.
 
@@ -1563,33 +1563,33 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
 
 
 ]
-(/Users/macbook-air/Documents/TA-ical/build/thesis.toc [8
+(/Users/macbook-air/TA-ical/build/thesis.toc [8
 
 ])
 \tf@toc=\write9
 \openout9 = `thesis.toc'.
 
  [9]
-(/Users/macbook-air/Documents/TA-ical/build/thesis.app)
+(/Users/macbook-air/TA-ical/build/thesis.app)
 \tf@app=\write10
 \openout10 = `thesis.app'.
 
  [10
 
 ]
-(/Users/macbook-air/Documents/TA-ical/build/thesis.lof)
+(/Users/macbook-air/TA-ical/build/thesis.lof)
 \tf@lof=\write11
 \openout11 = `thesis.lof'.
 
  [11
 
 ]
-(/Users/macbook-air/Documents/TA-ical/build/thesis.lot)
+(/Users/macbook-air/TA-ical/build/thesis.lot)
 \tf@lot=\write12
 \openout12 = `thesis.lot'.
 
-
-(./chapters/abbreviations.tex [12
+ (./chapters/abbreviations.tex
+[12
 
 ] (./thesis.gls-abr
 Overfull \hbox (14.32646pt too wide) in paragraph at lines 2--2
@@ -1744,13 +1744,13 @@ See the caption package documentation for explanation.
 
 [15
 
-] (/Users/macbook-air/Documents/TA-ical/build/thesis.aux)
+] (/Users/macbook-air/TA-ical/build/thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: C9019617245167C393F298E46F820DF8;4629.
  ) 
 Here is how much of TeX's memory you used:
  39208 strings out of 478268
- 783451 string characters out of 5846347
+ 783261 string characters out of 5846347
  1178930 words of memory out of 5000000
  56501 multiletter control sequences out of 15000+600000
  519781 words of font info for 134 fonts, out of 8000000 for 9000
@@ -1767,8 +1767,8 @@ ype1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
 ic/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/
 ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/Documents/TA-ical/build/thesis.pdf (29 pag
-es, 534388 bytes).
+Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (29 pages, 534391
+ bytes).
 PDF statistics:
  455 PDF objects out of 1000 (max. 8388607)
  397 compressed objects within 4 object streams
