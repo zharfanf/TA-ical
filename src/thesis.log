@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  21 MAY 2024 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  22 MAY 2024 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1346,7 +1346,7 @@ BAB 1.
 
 ] [2]) (./chapters/chapter-2.tex [3]
 BAB 2.
-<resources/chapter-2-infrastructure-diagram.png, id=322, 702.625pt x 406.51875pt>
+<resources/chapter-2-infrastructure-diagram.png, id=334, 702.625pt x 406.51875pt>
 File: resources/chapter-2-infrastructure-diagram.png Graphic file (type png)
 <use resources/chapter-2-infrastructure-diagram.png>
 Package pdftex.def Info: resources/chapter-2-infrastructure-diagram.png  used on input line 24.
@@ -1423,14 +1423,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 
 [11
 
-] (./thesis.bbl) [12
+] (./thesis.bbl [12
 
 
-] [13
+]) [13] [14
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [14
+) (./chapters/appendix-2.tex [15
 
 
 
@@ -1441,25 +1441,25 @@ Lampiran B.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 183.
 See the caption package documentation for explanation.
 
-[15
+[16
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F507013F4B3DB6C43A0ED4DDD2170DEB;4657.
  ) 
 Here is how much of TeX's memory you used:
- 38856 strings out of 478268
- 772377 string characters out of 5846347
- 1163721 words of memory out of 5000000
- 56145 multiletter control sequences out of 15000+600000
+ 38865 strings out of 478268
+ 772492 string characters out of 5846347
+ 1163831 words of memory out of 5000000
+ 56149 multiletter control sequences out of 15000+600000
  519781 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,9n,120p,1310b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (30 pages, 531867 bytes).
+Output written on thesis.pdf (31 pages, 533508 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 477 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

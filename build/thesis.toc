@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {1.4}Lingkup Permasalahan}{2}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Asumsi-asumsi}{2}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Hipotesis}{3}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Jadwal Pelaksanaan dan Anggaran}{3}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Sistematika Buku Tugas Akhir}{3}{section.1.7}%
 \contentsline {chapter}{\numberline {2}TINJAUAN PUSTAKA}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Dasar Teori}{4}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Bekerja dengan Float}{4}{subsection.2.1.1}%
@@ -35,4 +35,4 @@
 \contentsline {chapter}{\numberline {5}PENUTUP}{11}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{11}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{11}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{12}{chapter*.15}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{12}{chapter*.13}%
