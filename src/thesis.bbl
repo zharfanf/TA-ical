@@ -1,10 +1,10 @@
 \begin{thebibliography}{}
 
-\bibitem[edg, 2023]{edgeComp}
- (2023).
-
-\bibitem[4g, 2024]{4g}
- (2024).
+\bibitem[Al-Fuqaha dkk., 2015]{iot}
+Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., and Ayyash, M. (2015).
+\newblock Internet of things: A survey on enabling technologies, protocols, and
+  applications.
+\newblock {\em IEEE Communications Surveys {\&} Tutorials}, 17(4):2347--2376.
 
 \bibitem[Cao dkk., 2020]{edgeComp2}
 Cao, K., Liu, Y., Meng, G., and Sun, Q. (2020).
@@ -26,6 +26,20 @@ Huang, Y., Zharfan, F., Hendrawan, Gunawi, H.~S., and Jiang, J. (2024).
   analytics applications in edge network.
 \newblock In {\em 2024 IEEE International Conference on Edge Computing {\&}
   Communications (EDGE 24)}. IEEE.
+
+\bibitem[Khalifa, 2019]{smartCity}
+Khalifa, E. (2019).
+\newblock Smart cities: Opportunities, challenges, and security threats.
+\newblock {\em Journal of Strategic Innovation and Sustainability}, 14(3).
+
+\bibitem[Khalifa, 2023]{edgeComp}
+Khalifa, E. (2023).
+
+\bibitem[Khalifa, 2024a]{4g}
+Khalifa, E. (2024a).
+
+\bibitem[Khalifa, 2024b]{plat}
+Khalifa, E. (2024b).
 
 \bibitem[Knuth, 2001]{knuth2001art}
 Knuth, D. (2001).

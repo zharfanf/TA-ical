@@ -8,7 +8,7 @@
 \section{Latar Belakang}
 
 % Latar Belakang berisi dasar pemikiran, kebutuhan atau alasan yang menjadi ide dari topik tugas akhir. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas.  Saat menuliskan bagian ini, posisikan anda sebagai pembaca – apakah anda tertarik untuk terus membaca?
-Pada 5 tahun terakhir, perkembangan teknologi telekomunikasi merupakan salah satu yang paling masif.
+Dalam 5 tahun terakhir, perkembangan teknologi telekomunikasi merupakan salah satu yang paling masif.
 Hal ini dibuktikan dengan kehadiran standar komunikasi mobile 5G pada tahun 2019. 5G tidak hanya dapat meningkatkan kecepatan internet menjadi
 10Gb/s dari yang mulanya hanya 300Mb/s pada 4G LTE-Advanced \citep{4g}, namun 5G juga memiliki 2 \textit{use-case} lainnya
 yakni \textit{Massive Machine-Type Communication} dan \textit{Ultra-Reliable Low-Latency Communication} \citep{5g}. 
@@ -17,7 +17,7 @@ yakni \textit{Massive Machine-Type Communication} dan \textit{Ultra-Reliable Low
 % Security
 Hadirnya \textit{Massive Machine-Type Communication} memungkinkan banyak perangkat yang dapat terkoneksi dalam sebuah jaringan.
 Hal ini dapat mendukung keberlangsungan sistem IoT atau \textit{Internet of Things}. IoT adalah sebuah teknologi komunikasi
-yang memungkinkan perangkat-perangkat dalam sebuah jaringan dapat berkomunikasi satu sama lainnya sehingga menciptakan sebuah sistem cerdas.
+yang memungkinkan perangkat-perangkat dalam sebuah jaringan dapat berkomunikasi satu sama lainnya sehingga menciptakan sebuah sistem cerdas \citep{iot}.
 Perangkat-perangkat yang dimaksud dalam kasus ini adalah berbagai macam sensor. Data yang dikumpulkan dari berbagai macam sensor tersebut akan diproses
 oleh sebuah perangkat komputasi terpusat yang saat ini dikenal dengan istilah \textit{cloud computing}
 
@@ -27,12 +27,12 @@ dan tidak cocok diterapkan pada sistem yang real-time. Untuk mengatasi masalah i
 \textit{Edge Computing} adalah sebuah paradigma dalam cloud computing yang bertujuan untuk mendekatkan proses komputasi pada perangkat \textit{edge}
 sehingga pemrosesan dapat dilakukan dalam waktu singkat \citep{edgeComp}.
 
-Masalah yang sering ditemukan pada \textit{Edge Computing} adalah keterbatasan \textit{bandwidth} dan waktu pemrosesan yang relatif lama terutama pada perangkat \textit{edge} yang memiliki ukuran data yang relatif besar seperti
-kamera keamanan. Hal ini disebabkan oleh keterbatasan sumber daya komputasi yang dimiliki oleh \textit{edge computing} \citep{edgeCompDis}. Kamera akan mengirimkan video pada server untuk dilakukan proses deteksi objek (kendaraan, orang, objek lainnya). 
+Masalah yang sering ditemukan pada \textit{Edge Computing} adalah keterbatasan \textit{bandwidth} dan waktu pemrosesan yang relatif lama terutama pada perangkat \textit{edge} yang memiliki ukuran data yang relatif besar. 
+Hal ini disebabkan oleh keterbatasan sumber daya komputasi yang dimiliki oleh \textit{edge computing} \citep{edgeCompDis}. Contohnya adalah kamera keamanan, kamera akan mengirimkan video pada server untuk dilakukan proses deteksi objek (kendaraan, orang, objek lainnya). 
 Untuk mengatasi masalah tersebut, maka diperlukan lah sebuah sistem cerdas yang dapat mengalokasikan \textit{resource} secara periodik yang bergantung pada kebutuhan tiap kamera sehingga
 tidak ditemukan \textit{backlog} pada sistem dan juga dapat memperoleh hasil yang maksimal \citep{edgeComp2}.
 
-Dari perumusan masalah tersebut, pada tugas akhir ini akan dirancang sebuah sistem \textit{resource allocator} pada \textit{bandwidth} yang berbasis
+Dari perumusan masalah tersebut, pada tugas akhir ini akan dirancang sebuah sistem \textit{resource allocator} pada yang berfokus pada \textit{bandwidth} yang berbasis
 sensitivitas sehingga dapat meminimalkan trade-off antara alokasi bandwidth dan akurasi deteksi pada tiap kamera. 
 
 % internet -> security issue -> IoT -> edge computing
@@ -51,19 +51,28 @@ sensitivitas sehingga dapat meminimalkan trade-off antara alokasi bandwidth dan 
 % Penting untuk diperhatikan bahwa persoalan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di bab Evaluasi apakah terselesaikan atau tidak.
 
 Masalah penelitian yang dirumuskan adalah apakah penggunaan \textit{sensitivity-based resource allocator} yang diajukan dapat meningkatkan 
-rata-rata akurasi dari sistem \textit{video analytics} seperti DDS dan lebih baik dari videostorm?
+rata-rata akurasi dari sistem \textit{video analytics applications} (\gls{vap}) seperti DDS \citep{dds} dan lebih baik dari pendahulunya seperti VideoStorm \citep{videostorm}?
 \section{Tujuan dan Manfaat}
 
 %Tuliskan tujuan utama dan/atau tujuan detil yang akan dicapai dalam pelaksanaan tugas akhir. Fokuskan pada hasil akhir yang ingin diperoleh setelah tugas akhir diselesaikan, terkait dengan penyelesaian persoalan pada rumusan masalah. Penting untuk diperhatikan bahwa tujuan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di akhir pelaksanaan tugas akhir apakah tercapai atau tidak.
 Tujuan tugas akhir ini adalah untuk menghasilkan sebuah \textit{sensitivity-based resource allocator} yang dapat meningkatkan
-rata-rata akurasi dari sistem \textit{video analytics}
+rata-rata akurasi dari sistem \textit{video analytics applications}
+
+Hadirnya konsep smart city yang mengintegrasikan berbagai macam teknologi seperti kecerdasan buatan pada ekosistem
+perkotaan yang dapat membuat hidup lebih aman dan nyaman \citep{smartCity}. Salah satu sistem yang sudah
+diterapkan adalah sistem untuk mendeteksi plat nomor kendaraan untuk kemudahan identifikasi
+kendaraan apabila terjadi sebuah pelanggaran. Beberapa tahun terakhir Kepolisian Indonesia
+menetapkan aturan warna terbaru plat nomor kendaraan menjadi putih, hal ini dilakukan karena
+warna putih dapat lebih mudah dideteksi oleh model object detection dibandingkan dengan
+warna hitam \citep{plat}. Dengan pengimplementasian \textit{resource allocator}, kami berharap
+performa, yakni akurasi, yang dihasilkan dari sistem tersebut dapat maksimal sehingga tidak terdapat pelanggar yang bebas tilang.
 
 \section{Lingkup Permasalahan}
 
 %Tuliskan batasan-batasan yang diambil dalam pelaksanaan tugas akhir. Batasan ini dapat dihindari (tidak perlu ada) jika topik/judul tugas akhir dibuat cukup spesifik.
 Pada topik \textit{Enhancing Video Analytics Accuracy via
 Real-time Automated Video Compression Parameter Tuning as
-well as Enabling Resource Allocator}, secara garis besar terdiri dari 2 buah subsistem, yakni \textit{video analytics application} dan \textit{resource allocator}.
+well as Enabling Resource Allocator}, secara garis besar terdiri dari 2 buah subsistem, yakni \textit{video analytics applications} dan \textit{resource allocator}.
 Fokus penulis adalah untuk mengembangkan dan menguji \textit{resource allocator}. 
 Selain itu, karena keterbatasan waktu yang diberikan dan alasan keamanan,
 \textit{resource allocator} hanya dapat bekerja dalam jaringan lokal.
@@ -78,7 +87,6 @@ Dalam pengerjaan tugas akhir ini terdapat asumsi-asumsi yang digunakan antara la
 	\item Kondisi jaringan yang stabil sehingga komunikasi data dapat terus terjalin
 	\item \textit{Resource allocator} hanya dapat dijalankan pada sistem operasi berbasis kernel Linux
 	\item Jumlah \textit{client} atau kamera yang dapat terkoneksi adalah sebanyak 3 buah
-	\item Lorem ipsum
 \end{enumerate}
 
 \section{Hipotesis}
@@ -88,8 +96,8 @@ Dalam pengerjaan tugas akhir ini terdapat asumsi-asumsi yang digunakan antara la
 
 % \textit{Penggunaan perangkat Arduino yang mengntegrasikan data dari 4 buah sensor, transceiver jarak jauh LoRa, serta sumber energi hardware yang dapat melakukan self-recharging melalui solar panel, akan menghasilkan alat komunikasi ramah lingkungan untuk pengiriman data 4 buah sensor dari daerah yang belum terjangkau jaringan internet.}
 
-Penggunaan \textit{resource allocator} yang diintegrasikan dengan gRPC dan \textit{self-adaptive VAP} dapat memberikan gambaran kondisi kebutuhan bandwidth
-tiap kamera sehingga alokasi bandwidth ideal akan diperoleh yang berakibat pada peningkatan performansi (akurasi)
+Penggunaan \textit{resource allocator} yang diintegrasikan dengan gRPC dan \textit{self-adaptive} \gls{vap} dapat memberikan gambaran kondisi kebutuhan bandwidth
+tiap kamera sehingga alokasi bandwidth ideal akan diperoleh yang berakibat pada peningkatan akurasi
 
 \section{Sistematika Buku Tugas Akhir}
 

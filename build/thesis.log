@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  22 MAY 2024 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  23 MAY 2024 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,7 +1616,7 @@ Overfull \hbox (7.54721pt too wide) in alignment at lines 2--2
  []
 
 
-Overfull \hbox (7.54721pt too wide) in alignment at lines 2--12
+Overfull \hbox (7.54721pt too wide) in alignment at lines 2--15
  [] [] [] 
  []
 
@@ -1648,9 +1648,9 @@ BAB 1.
 [1
 
 
-] [2]) (./chapters/chapter-2.tex [3]
+] [2] [3]) (./chapters/chapter-2.tex [4]
 BAB 2.
-<resources/chapter-2-infrastructure-diagram.png, id=334, 702.625pt x 406.51875p
+<resources/chapter-2-infrastructure-diagram.png, id=356, 702.625pt x 406.51875p
 t>
 File: resources/chapter-2-infrastructure-diagram.png Graphic file (type png)
 <use resources/chapter-2-infrastructure-diagram.png>
@@ -1666,19 +1666,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 40.
-[4
+[5
 
 ]
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 53.
 
-[5 <./resources/chapter-2-infrastructure-diagram.png>])
+[6 <./resources/chapter-2-infrastructure-diagram.png>])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-3.tex [6]
+(./chapters/chapter-3.tex [7]
 BAB 3.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1693,9 +1693,9 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 101.
 
-(./chapters/chapter-4.tex [7
+(./chapters/chapter-4.tex [8
 
-] [8]
+] [9]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1709,14 +1709,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[9
+[10
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-(./chapters/chapter-5.tex [10]
+(./chapters/chapter-5.tex [11]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1727,16 +1727,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 103.
 
-[11
+[12
 
-] (./thesis.bbl [12
+] (./thesis.bbl [13
 
 
-]) [13] [14
+]) [14] [15
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [15
+) (./chapters/appendix-2.tex [16
 
 
 
@@ -1747,17 +1747,17 @@ Lampiran B.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 183.
 See the caption package documentation for explanation.
 
-[16
+[17
 
 ] (/Users/macbook-air/TA-ical/build/thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F507013F4B3DB6C43A0ED4DDD2170DEB;4657.
+(rerunfilecheck)             Checksum: DD3FF988BD7EEDFC866410DA0544EEFD;4758.
  ) 
 Here is how much of TeX's memory you used:
- 38865 strings out of 478268
- 773012 string characters out of 5846347
- 1163831 words of memory out of 5000000
- 56149 multiletter control sequences out of 15000+600000
+ 38906 strings out of 478268
+ 773555 string characters out of 5846347
+ 1163930 words of memory out of 5000000
+ 56186 multiletter control sequences out of 15000+600000
  519781 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,9n,120p,1279b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1772,11 +1772,11 @@ ype1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
 ic/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/
 ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (31 pages, 533508
+Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (32 pages, 535549
  bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 106 named destinations out of 1000 (max. 500000)
+ 500 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
