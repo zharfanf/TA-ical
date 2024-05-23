@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  23 MAY 2024 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  23 MAY 2024 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,7 +1460,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
 (Font)              scaled to size 14.4pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 20.
-<resources/cover-ganesha.jpg, id=147, 411.29268pt x 599.89975pt>
+<resources/cover-ganesha.jpg, id=151, 411.29268pt x 599.89975pt>
 File: resources/cover-ganesha.jpg Graphic file (type jpg)
 <use resources/cover-ganesha.jpg>
 Package pdftex.def Info: resources/cover-ganesha.jpg  used on input line 36.
@@ -1650,30 +1650,29 @@ BAB 1.
 
 ] [2] [3]) (./chapters/chapter-2.tex [4]
 BAB 2.
-<resources/chapter-2-infrastructure-diagram.png, id=356, 702.625pt x 406.51875p
+<resources/chapter-2-infrastructure-diagram.png, id=363, 702.625pt x 406.51875p
 t>
 File: resources/chapter-2-infrastructure-diagram.png Graphic file (type png)
 <use resources/chapter-2-infrastructure-diagram.png>
 Package pdftex.def Info: resources/chapter-2-infrastructure-diagram.png  used o
-n input line 24.
+n input line 31.
 (pdftex.def)             Requested size: 318.67209pt x 184.37703pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 34.
+(Font)              scaled to size 10.95pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 40.
-[5
-
-]
+(Font)              scaled to size 10.95pt on input line 47.
 
 Package blindtext Warning: bahasa not defined, using English instead.
-(blindtext)                 on input line 53.
+(blindtext)                 on input line 60.
 
-[6 <./resources/chapter-2-infrastructure-diagram.png>])
+[5
+
+] [6 <./resources/chapter-2-infrastructure-diagram.png>])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
@@ -1751,13 +1750,13 @@ See the caption package documentation for explanation.
 
 ] (/Users/macbook-air/TA-ical/build/thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DD3FF988BD7EEDFC866410DA0544EEFD;4758.
+(rerunfilecheck)             Checksum: 54FEA46DE9359BED8A253599992C95C4;4906.
  ) 
 Here is how much of TeX's memory you used:
- 38906 strings out of 478268
- 773555 string characters out of 5846347
+ 38907 strings out of 478268
+ 773595 string characters out of 5846347
  1163930 words of memory out of 5000000
- 56186 multiletter control sequences out of 15000+600000
+ 56187 multiletter control sequences out of 15000+600000
  519781 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,9n,120p,1279b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1772,11 +1771,11 @@ ype1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
 ic/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/
 ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (32 pages, 535549
+Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (32 pages, 535324
  bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
+ 505 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
  110 named destinations out of 1000 (max. 500000)
- 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

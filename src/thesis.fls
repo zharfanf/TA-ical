@@ -1889,13 +1889,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-ot1.tfm
-INPUT ./chapters/chapter-3.tex
-INPUT ./chapters/chapter-3.tex
-INPUT ./chapters/chapter-3.tex
-INPUT chapters/chapter-3.tex
-INPUT ./chapters/chapter-3.tex
-INPUT ./chapters/chapter-3.tex
-INPUT chapters/chapter-3.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntx-Bold-tlf-ot1.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txbmiaX.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-ot1r.tfm
@@ -1919,6 +1912,13 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./chapters/chapter-3.tex
+INPUT ./chapters/chapter-3.tex
+INPUT ./chapters/chapter-3.tex
+INPUT chapters/chapter-3.tex
+INPUT ./chapters/chapter-3.tex
+INPUT ./chapters/chapter-3.tex
+INPUT chapters/chapter-3.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
