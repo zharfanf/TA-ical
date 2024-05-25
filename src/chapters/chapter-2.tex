@@ -13,63 +13,70 @@
 % VAP (DDS)
 % Tools (gRPC, tc, python, linux)
 
-\subsection{Resource Allocator}
-Lorem Ipsum Dol
-\subsubsection{Video Storm}
-Perujukan literatur dapat dilakukan dengan menambahkan entri baru di berkas. Tulisan ini merujuk pada \cite{knuth2001art}. Ini adalah contoh penggunaan singkatan yang telah didefinisikan: penggunaan pertama: \gls{utc}, kedua dan selanjutnya: \gls{utc}. Juga dapat digunakan singkatan lain: \gls{adt}, \gls{est}. Berikut adalah contoh penggunaan lambang: \gls{symb:pi}, \gls{symb:avogadro}.
+    \subsection{Resource Allocator}
+    Kehadiran sebuah \textit{resource allocator} merupakan hal yang sangat krusial pada keberlangsungan sistem \textit{edge computing}. Keterbatasan sumber daya komputasi merupakan motivasi
+    utama dibalik kebutuhan sistem ini. Sumber daya komputasi harus secara cerdas dan tepat dialokasikan sesuai dengan kebutuhan perangkat \textit{edge} 
+    sehingga tidak terdapat \textit{backlog} yang dapat menurukan performansi \citep{edgeComp2}.
+    Sumber daya komputasi yang bisa dialokasikan berupa CPU, GPU, \textit{bandwidth}, \textit{memory}, dan \textit{storage} \citep{edgeCompDis}.
 
-    \subsection{Bekerja dengan Float}
+    
+
+    \subsection{Video Analytics Application}
 
     Float adalah \textit{container} untuk elemen-elemen dokumen yang tidak dapat dipisah menjadi beberapa halaman. Environment ``table'' dan ``figure'' secara default adalah float. Float berguna untuk memudahkan peletakan objek yang tidak cukup jika diletakkan di halaman sekarang. Peletakan float diatur oleh \LaTeX\ dan pengguna sebaiknya memberikan keleluasaan kepada \LaTeX\ agar dapat mengatur peletakan dengan baik. 
     
-    \subsubsection{Gambar}
+    \subsection{gRPC}
+    \subsection{Traffic Controller}
+    \subsection{Python}
+    \subsection{Linux}
+    % \subsubsection{Gambar}
     
-    Float bisa di-\textit{cross reference}. Contohnya Gambar~\ref{fig:contoh_gambar} adalah contoh gambar.
+    % Float bisa di-\textit{cross reference}. Contohnya Gambar~\ref{fig:contoh_gambar} adalah contoh gambar.
 
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.8\textwidth]{resources/chapter-2-infrastructure-diagram.png}
-        \caption{Contoh gambar}
-        \label{fig:contoh_gambar}
-    \end{figure}
+    % \begin{figure}[h]
+    %     \centering
+    %     \includegraphics[width=0.8\textwidth]{resources/chapter-2-infrastructure-diagram.png}
+    %     \caption{Contoh gambar}
+    %     \label{fig:contoh_gambar}
+    % \end{figure}
 
-    \subsubsection{Tabel}
+    % \subsubsection{Tabel}
 
-    Tabel juga merupakan float. Tabel~\ref{table:contoh_tabel} adalah contoh tabel.
+    % Tabel juga merupakan float. Tabel~\ref{table:contoh_tabel} adalah contoh tabel.
 
-    \begin{table}[htbp]
-        \small
-        \centering
-        \caption{Contoh Tabel}
-        \label{table:contoh_tabel}
-        \begin{tabular}{ll}
-            \toprule
-            \multicolumn{1}{l}{\textbf{Contoh Judul Kolom}} & \multicolumn{1}{l}{\textbf{Nilai}}\\
-            \midrule
-            Besaran 1 & 12 meter          \\
-            Besaran 2 & $360^\circ$       \\
-            Besaran 3 & 0,2 meter         \\
-            Besaran 4 & $1^\circ$         \\
-            Besaran 5 & 8000 sampel/detik \\
-            \bottomrule
-        \end{tabular}
-    \end{table}
+    % \begin{table}[htbp]
+    %     \small
+    %     \centering
+    %     \caption{Contoh Tabel}
+    %     \label{table:contoh_tabel}
+    %     \begin{tabular}{ll}
+    %         \toprule
+    %         \multicolumn{1}{l}{\textbf{Contoh Judul Kolom}} & \multicolumn{1}{l}{\textbf{Nilai}}\\
+    %         \midrule
+    %         Besaran 1 & 12 meter          \\
+    %         Besaran 2 & $360^\circ$       \\
+    %         Besaran 3 & 0,2 meter         \\
+    %         Besaran 4 & $1^\circ$         \\
+    %         Besaran 5 & 8000 sampel/detik \\
+    %         \bottomrule
+    %     \end{tabular}
+    % \end{table}
 
-    \subsection{Persamaan Matematika}
+    % \subsection{Persamaan Matematika}
 
-    \blindtext Persamaan~\eqref{eq:contoh_equation} adalah contoh persamaan matematika,
+    % \blindtext Persamaan~\eqref{eq:contoh_equation} adalah contoh persamaan matematika,
 
-    \begin{align}
-        c^2 = a^2 + b^2\,.
-    \label{eq:contoh_equation}
-    \end{align}
+    % \begin{align}
+    %     c^2 = a^2 + b^2\,.
+    % \label{eq:contoh_equation}
+    % \end{align}
     
-    Contoh penggunaan notasi custom,
+    % Contoh penggunaan notasi custom,
     
-    \begin{align}
-        \bayes{x}{y}\,.
-    \label{eq:contoh_equation_custom}
-    \end{align}
+    % \begin{align}
+    %     \bayes{x}{y}\,.
+    % \label{eq:contoh_equation_custom}
+    % \end{align}
 
 \section{Persyaratan Desain}
 
