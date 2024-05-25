@@ -1,13 +1,15 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
-\glsgroupheading{A}\relax \glsresetentrylist %
-\glossentry{adt}{\glossaryentrynumbers{\relax 
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{cnn}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5}}}%
+\glossentry{cpu}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
-\glsgroupheading{E}\relax \glsresetentrylist %
-\glossentry{est}{\glossaryentrynumbers{\relax 
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossentry{gpu}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
-\glsgroupheading{U}\relax \glsresetentrylist %
-\glossentry{utc}{\glossaryentrynumbers{\relax 
+\glsgroupheading{J}\relax \glsresetentrylist %
+\glossentry{jcab}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
 \glsgroupheading{V}\relax \glsresetentrylist %
 \glossentry{vap}{\glossaryentrynumbers{\relax 

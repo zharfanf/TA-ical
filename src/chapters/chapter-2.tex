@@ -17,13 +17,19 @@
     Kehadiran sebuah \textit{resource allocator} merupakan hal yang sangat krusial pada keberlangsungan sistem \textit{edge computing}. Keterbatasan sumber daya komputasi merupakan motivasi
     utama dibalik kebutuhan sistem ini. Sumber daya komputasi harus secara cerdas dan tepat dialokasikan sesuai dengan kebutuhan perangkat \textit{edge} 
     sehingga tidak terdapat \textit{backlog} yang dapat menurukan performansi \citep{edgeComp2}.
-    Sumber daya komputasi yang bisa dialokasikan berupa CPU, GPU, \textit{bandwidth}, \textit{memory}, dan \textit{storage} \citep{edgeCompDis}.
+    Sumber daya komputasi yang bisa dialokasikan berupa \gls{cpu}, \gls{gpu}, \textit{bandwidth}, \textit{memory}, dan \textit{storage} \citep{edgeCompDis}.
 
+    Beberapa peneliti sudah mengajukan sistem \textit{resource allocator}, diantaranya adalah VideoStorm \citep{videostorm}, \gls{jcab} \citep{jcab}, dan AutoML \textit{for \gls{vap}} \citep{automl}.
+    \gls{jcab} melakukan alokasi berdasarkan \textit{bandwidth} dan model \gls{cnn}, artinya pada suatu sistem, terdapat beberapa model yang di-\textit{deploy} berdasarkan resolusi video masukan. 
+    Tiap kumpulan video akan didistribusikan pada model \gls{cnn} yang berbeda-beda mengikuti konfigurasi video yang sudah ditentukan sebelumnya.
+
+    Sementara AutoML \textit{for \gls{vap}} adalah sebuah \textit{framework} AutoML yang sengaja dibuat untuk memilih konfigurasi yang teroptimasi untuk \gls{vap} dan pembuatan model \gls{cnn}. VideoStorm, di lain sisi
+    adalah sebuah \textit{resource allocator} yang melakukan alokasi terhadap \textit{bandwidth}. Cara kerja VideoStorm adalah pertama-tama kamera-kamera akan mengirimkan video kepada server.
+    Lalu pada suatu periode tertentu, VideoStorm akan melakukan alokasi \textit{bandwidth} dengan menganalisis hasil dari beberapa detik sebelumnya dan menentukan \textit{bandwidth} yang sesuai dengan kebutuhannya.
     
-
     \subsection{Video Analytics Application}
-
-    Float adalah \textit{container} untuk elemen-elemen dokumen yang tidak dapat dipisah menjadi beberapa halaman. Environment ``table'' dan ``figure'' secara default adalah float. Float berguna untuk memudahkan peletakan objek yang tidak cukup jika diletakkan di halaman sekarang. Peletakan float diatur oleh \LaTeX\ dan pengguna sebaiknya memberikan keleluasaan kepada \LaTeX\ agar dapat mengatur peletakan dengan baik. 
+    
+    % Float adalah \textit{container} untuk elemen-elemen dokumen yang tidak dapat dipisah menjadi beberapa halaman. Environment ``table'' dan ``figure'' secara default adalah float. Float berguna untuk memudahkan peletakan objek yang tidak cukup jika diletakkan di halaman sekarang. Peletakan float diatur oleh \LaTeX\ dan pengguna sebaiknya memberikan keleluasaan kepada \LaTeX\ agar dapat mengatur peletakan dengan baik. 
     
     \subsection{gRPC}
     \subsection{Traffic Controller}

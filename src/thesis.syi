@@ -1,8 +1,1 @@
-\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
-\begin{theglossary}\glossaryheader
-\glsgroupheading{glssymbols}\relax \glsresetentrylist %
-\glossentry{symb:avogadro}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}}}%
-\glossentry{symb:pi}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}}}%
-\end{theglossary}\glossarypostamble
+\null

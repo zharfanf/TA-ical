@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  23 MAY 2024 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  25 MAY 2024 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,31 +1312,16 @@ Overfull \hbox (7.54721pt too wide) in alignment at lines 2--2
  []
 
 
-Overfull \hbox (7.54721pt too wide) in alignment at lines 2--15
+Underfull \hbox (badness 7116) in paragraph at lines 13--13
+[]|\OT1/ntxtlf/m/n/12 Joint Con-fi-gu-ra-tion Adap-ta-tion and
+ []
+
+
+Overfull \hbox (7.54721pt too wide) in alignment at lines 2--17
  [] [] [] 
  []
 
-) (./thesis.syi
-Overfull \hbox (5.1585pt too wide) in paragraph at lines 2--2
- []|\OT1/ntxtlf/b/n/12 LAMBANG| 
- []
-
-
-Overfull \hbox (7.54721pt too wide) in alignment at lines 2--2
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/ntxtlf/m/n/12 Rasio ke-li-ling ling-kar-an ter-ha-dap
- []
-
-
-Overfull \hbox (7.54721pt too wide) in alignment at lines 2--8
- [] [] [] 
- []
-
-) [14
+) (./thesis.syi) [14
 
 
 ]) (./chapters/chapter-1.tex
@@ -1346,32 +1331,14 @@ BAB 1.
 
 ] [2] [3]) (./chapters/chapter-2.tex [4]
 BAB 2.
-<resources/chapter-2-infrastructure-diagram.png, id=363, 702.625pt x 406.51875pt>
-File: resources/chapter-2-infrastructure-diagram.png Graphic file (type png)
-<use resources/chapter-2-infrastructure-diagram.png>
-Package pdftex.def Info: resources/chapter-2-infrastructure-diagram.png  used on input line 31.
-(pdftex.def)             Requested size: 318.67209pt x 184.37703pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 47.
-
-Package blindtext Warning: bahasa not defined, using English instead.
-(blindtext)                 on input line 60.
-
-[5
-
-] [6 <./resources/chapter-2-infrastructure-diagram.png>])
+)
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-3.tex [7]
+(./chapters/chapter-3.tex [5
+
+] [6]
 BAB 3.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1386,9 +1353,9 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 101.
 
-(./chapters/chapter-4.tex [8
+(./chapters/chapter-4.tex [7
 
-] [9]
+] [8]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1402,14 +1369,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[10
+[9
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-(./chapters/chapter-5.tex [11]
+(./chapters/chapter-5.tex [10]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1420,16 +1387,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 103.
 
-[12
+[11
 
-] (./thesis.bbl [13
+] (./thesis.bbl [12
 
 
-]) [14] [15
+]) [13] [14
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [16
+) (./chapters/appendix-2.tex [15
 
 
 
@@ -1440,25 +1407,25 @@ Lampiran B.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 183.
 See the caption package documentation for explanation.
 
-[17
+[16
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 54FEA46DE9359BED8A253599992C95C4;4906.
+(rerunfilecheck)             Checksum: 5A832530B9939499F020BA1FA2E94037;4906.
  ) 
 Here is how much of TeX's memory you used:
- 38907 strings out of 478268
- 773075 string characters out of 5846347
- 1163930 words of memory out of 5000000
- 56187 multiletter control sequences out of 15000+600000
- 519781 words of font info for 134 fonts, out of 8000000 for 9000
+ 38981 strings out of 478268
+ 774012 string characters out of 5846347
+ 1163724 words of memory out of 5000000
+ 56294 multiletter control sequences out of 15000+600000
+ 501852 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,9n,120p,1310b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (32 pages, 535330 bytes).
+ 111i,6n,120p,1310b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on thesis.pdf (31 pages, 384997 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
- 311 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 424 compressed objects within 5 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

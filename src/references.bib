@@ -153,3 +153,47 @@ author={Fox, Will}
 }
 
 @misc{plat, author={Khalifa, Ehab}, url={https://www.hyundai.com/id/en/hyundai-story/articles/arti-plat-nomor-putih-dan-kapan-pemberlakuan-plat-putih-kendaraan-0000000187}, journal={HYUNDAI MOTORS}, year={2024}} 
+
+@inproceedings{chameleon,
+author = {Jiang, Junchen and Ananthanarayanan, Ganesh and Bodik, Peter and Sen, Siddhartha and Stoica, Ion},
+title = {Chameleon: scalable adaptation of video analytics},
+year = {2018},
+isbn = {9781450355674},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3230543.3230574},
+doi = {10.1145/3230543.3230574},
+abstract = {Applying deep convolutional neural networks (NN) to video data at scale poses a substantial systems challenge, as improving inference accuracy often requires a prohibitive cost in computational resources. While it is promising to balance resource and accuracy by selecting a suitable NN configuration (e.g., the resolution and frame rate of the input video), one must also address the significant dynamics of the NN configuration's impact on video analytics accuracy. We present Chameleon, a controller that dynamically picks the best configurations for existing NN-based video analytics pipelines. The key challenge in Chameleon is that in theory, adapting configurations frequently can reduce resource consumption with little degradation in accuracy, but searching a large space of configurations periodically incurs an overwhelming resource overhead that negates the gains of adaptation. The insight behind Chameleon is that the underlying characteristics (e.g., the velocity and sizes of objects) that affect the best configuration have enough temporal and spatial correlation to allow the search cost to be amortized over time and across multiple video feeds. For example, using the video feeds of five traffic cameras, we demonstrate that compared to a baseline that picks a single optimal configuration offline, Chameleon can achieve 20-50\% higher accuracy with the same amount of resources, or achieve the same accuracy with only 30--50\% of the resources (a 2-3X speedup).},
+booktitle = {Proceedings of the 2018 Conference of the ACM Special Interest Group on Data Communication},
+pages = {253–266},
+numpages = {14},
+keywords = {video analytics, object detection, deep neural networks},
+location = {Budapest, Hungary},
+series = {SIGCOMM '18}
+}
+
+@INPROCEEDINGS{jcab,
+  author={Wang, Can and Zhang, Sheng and Chen, Yu and Qian, Zhuzhong and Wu, Jie and Xiao, Mingjun},
+  booktitle={IEEE INFOCOM 2020 - IEEE Conference on Computer Communications}, 
+  title={Joint Configuration Adaptation and Bandwidth Allocation for Edge-based Real-time Video Analytics}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={257-266},
+  abstract={Real-time analytics on video data demands intensive computation resources and high energy consumption. Traditional cloud-based video analytics relies on large centralized clusters to ingest video streams. With edge computing, we can offload compute-intensive analysis tasks to the nearby server, thus mitigating long latency incurred by data transmission via wide area networks. When offloading frames from the front-end device to the edge server, the application configuration (frame sampling rate and frame resolution) will impact several metrics, such as energy consumption, analytics accuracy and user-perceived latency. In this paper, we study the configuration adaption and bandwidth allocation for multiple video streams, which are connected to the same edge node sharing an upload link. We propose an efficient online algorithm, called JCAB, which jointly optimizes configuration adaption and bandwidth allocation to address a number of key challenges in edge-based video analytics systems, including edge capacity limitation, unknown network variation, intrusive dynamics of video contents. Our algorithm is developed based on Lyapunov optimization and Markov approximation, works online without requiring future information, and achieves a provable performance bound. Simulation results show that JCAB can effectively balance the analytics accuracy and energy consumption while keeping low system latency.},
+  keywords={Streaming media;Bandwidth;Energy consumption;Servers;Channel allocation;Image resolution;Energy resolution},
+  doi={10.1109/INFOCOM41043.2020.9155524},
+  ISSN={2641-9874},
+  month={July},}
+
+
+@INPROCEEDINGS{automl,
+  author={Galanopoulos, Apostolos and Ayala-Romero, Jose A. and Leith, Douglas J. and Iosifidis, George},
+  booktitle={IEEE INFOCOM 2021 - IEEE Conference on Computer Communications}, 
+  title={AutoML for Video Analytics with Edge Computing}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-10},
+  keywords={Performance evaluation;Machine learning algorithms;Handheld computers;Visual analytics;Wireless networks;Roads;Conferences;Edge Computing;Online Learning;GP-UCB},
+  doi={10.1109/INFOCOM42981.2021.9488704}}

@@ -20,6 +20,12 @@ Du, K., Pervaiz, A., Yuan, X., Chowdhery, A., Zhang, Q., Hoffmann, H., and
   Architectures, and Protocols for Computer Communication}, SIGCOMM '20, page
   557–570, New York, NY, USA. Association for Computing Machinery.
 
+\bibitem[Galanopoulos dkk., 2021]{automl}
+Galanopoulos, A., Ayala-Romero, J.~A., Leith, D.~J., and Iosifidis, G. (2021).
+\newblock Automl for video analytics with edge computing.
+\newblock In {\em IEEE INFOCOM 2021 - IEEE Conference on Computer
+  Communications}, pages 1--10.
+
 \bibitem[Huang dkk., 2024]{concierge}
 Huang, Y., Zharfan, F., Hendrawan, Gunawi, H.~S., and Jiang, J. (2024).
 \newblock Concierge: Towards accuracy-driven bandwidth allocation for video
@@ -41,12 +47,6 @@ Khalifa, E. (2024a).
 \bibitem[Khalifa, 2024b]{plat}
 Khalifa, E. (2024b).
 
-\bibitem[Knuth, 2001]{knuth2001art}
-Knuth, D. (2001).
-\newblock {\em The Art of Computer Programming: Fundamental Algorithms}.
-\newblock Number v. 1 in The Art of Computer Programming: Fundamental
-  Algorithms. Addison-Wesley.
-
 \bibitem[Mao dkk., 2017]{edgeCompDis}
 Mao, Y., You, C., Zhang, J., Huang, K., and Letaief, K.~B. (2017).
 \newblock A survey on mobile edge computing: The communication perspective.
@@ -60,6 +60,13 @@ Reply, T. (2024).
 Satyanarayanan, M. (2017).
 \newblock The emergence of edge computing.
 \newblock {\em Computer}, 50(1):30--39.
+
+\bibitem[Wang dkk., 2020]{jcab}
+Wang, C., Zhang, S., Chen, Y., Qian, Z., Wu, J., and Xiao, M. (2020).
+\newblock Joint configuration adaptation and bandwidth allocation for
+  edge-based real-time video analytics.
+\newblock In {\em IEEE INFOCOM 2020 - IEEE Conference on Computer
+  Communications}, pages 257--266.
 
 \bibitem[Zhang dkk., 2017]{videostorm}
 Zhang, H., Ananthanarayanan, G., Bodik, P., Philipose, M., Bahl, P., and

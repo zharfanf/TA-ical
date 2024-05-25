@@ -1,4 +1,5 @@
 \glossaryentry{VAP?\glossentry{vap}|setentrycounter[]{page}"\glsnumberformat}{2}
-\glossaryentry{UTC?\glossentry{utc}|setentrycounter[]{page}"\glsnumberformat}{5}
-\glossaryentry{ADT?\glossentry{adt}|setentrycounter[]{page}"\glsnumberformat}{5}
-\glossaryentry{EST?\glossentry{est}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{CPU?\glossentry{cpu}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{GPU?\glossentry{gpu}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{JCAB?\glossentry{jcab}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{5}
