@@ -1,23 +1,23 @@
 # Fdb version 3
-["bibtex thesis"] 1716630630 "thesis.aux" "thesis.bbl" "thesis" 1716630634
+["bibtex thesis"] 1716714151 "thesis.aux" "thesis.bbl" "thesis" 1716714155
   "./apalike.bst" 1716291181 24742 cc0c8c5812f639cc6adefe8de3236c31 ""
-  "references.bib" 1716625470 14583 928288894ea4f5b2ca54ce19065142a7 ""
-  "thesis.aux" 1716630633 7669 028e292e7c2a19228e89fa0cc6f2cc07 ""
+  "references.bib" 1716713405 19467 3f1bae6a375281e574409184420f916f ""
+  "thesis.aux" 1716714153 8090 c3cdf660b423c71ae58c27598b75a406 ""
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["cusdep glo-abr gls-abr thesis"] 1716630630 "thesis.glo-abr" "thesis.gls-abr" "thesis" 1716630634
-  "thesis.glo-abr" 1716630633 407 170baf32d1c3d6ca0219f5d5a9e008ed ""
+["cusdep glo-abr gls-abr thesis"] 1716714151 "thesis.glo-abr" "thesis.gls-abr" "thesis" 1716714155
+  "thesis.glo-abr" 1716714153 488 89f7324be74fc0decf3343ab64bf899c ""
   (generated)
   "thesis.gls-abr"
-["pdflatex"] 1716630633 "thesis.tex" "/Users/macbook-air/TA-ical/build/thesis.pdf" "thesis" 1716630634
+["pdflatex"] 1716714153 "thesis.tex" "/Users/macbook-air/TA-ical/build/thesis.pdf" "thesis" 1716714155
   "/Users/macbook-air/TA-ical/build/hyphenation-id" 0 -1 0 ""
-  "/Users/macbook-air/TA-ical/build/thesis.app" 1716630634 200 42d58b065997ddfc94159eaaa87c8dc8 "pdflatex"
-  "/Users/macbook-air/TA-ical/build/thesis.aux" 1716630634 7669 028e292e7c2a19228e89fa0cc6f2cc07 "pdflatex"
-  "/Users/macbook-air/TA-ical/build/thesis.lof" 1716630634 183 b63342ee79d4ca0c4f7660117fd95792 "pdflatex"
-  "/Users/macbook-air/TA-ical/build/thesis.lot" 1716630634 183 b63342ee79d4ca0c4f7660117fd95792 "pdflatex"
-  "/Users/macbook-air/TA-ical/build/thesis.out" 1716630634 4906 5a832530b9939499f020ba1fa2e94037 "pdflatex"
-  "/Users/macbook-air/TA-ical/build/thesis.toc" 1716630634 2937 ff1e7b918d0511d70b43563fcecb4b1d "pdflatex"
+  "/Users/macbook-air/TA-ical/build/thesis.app" 1716714155 200 262568cf295b50258a586af3611dc53f "pdflatex"
+  "/Users/macbook-air/TA-ical/build/thesis.aux" 1716714155 8090 c3cdf660b423c71ae58c27598b75a406 "pdflatex"
+  "/Users/macbook-air/TA-ical/build/thesis.lof" 1716714155 183 b63342ee79d4ca0c4f7660117fd95792 "pdflatex"
+  "/Users/macbook-air/TA-ical/build/thesis.lot" 1716714155 183 b63342ee79d4ca0c4f7660117fd95792 "pdflatex"
+  "/Users/macbook-air/TA-ical/build/thesis.out" 1716714155 4906 5a832530b9939499f020ba1fa2e94037 "pdflatex"
+  "/Users/macbook-air/TA-ical/build/thesis.toc" 1716714155 2941 2d9fdd952045e6724f229617b82b5034 "pdflatex"
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -274,7 +274,7 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1665299678 2826432 c9c8ba4716b6d1bb23738ad5435ce3ce ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "chapters/abbreviations.tex" 1716629523 887 a1c947a0c7ccf3688b50254fadc09bbe ""
+  "chapters/abbreviations.tex" 1716713509 973 648a2aaa0efbfde4977b1a2b4618ceab ""
   "chapters/abstract-en.tex" 1716292011 862 e334d4118e5a1b3c29b81bdecf98ce69 ""
   "chapters/abstract-id.tex" 1716276068 482 e35c88c418fd12692759545891f1573b ""
   "chapters/appendix-1.tex" 1716276068 29 6368dc5ca815fe0718c59012f65ac242 ""
@@ -282,7 +282,7 @@
   "chapters/approval-single-advisor.tex" 1716276068 601 51297d10bad741fa9fedba7ec689e03c ""
   "chapters/authorization-single-advisor.tex" 1716276068 1035 e4838fbae37a4a7e869e45045ba68f8b ""
   "chapters/chapter-1.tex" 1716455997 10586 0bae32dfe046a16a3d6b1f191fb47716 ""
-  "chapters/chapter-2.tex" 1716630617 4775 203e693bd3d3788039f15c892d4e45cf ""
+  "chapters/chapter-2.tex" 1716714145 6522 367bb89c1c6ab5b01c4c320ed55f10a9 ""
   "chapters/chapter-3.tex" 1716276068 146 63d626b6a32c21dcbda5ebc40bab0825 ""
   "chapters/chapter-4.tex" 1716276068 184 6bc1af5fd825284394728699628d755e ""
   "chapters/chapter-5.tex" 1716276068 78 dfcaa5d6e360f9579646d01e252e6119 ""
@@ -294,9 +294,9 @@
   "hyphenation-id" 0 -1 0 ""
   "natbib.sty" 1492434553 30639 115cd866e54f531a975d2a3455d53c3c ""
   "resources/cover-ganesha.jpg" 1716276068 199078 b0deb353b173e7d1d8c6bf9a4060386d ""
-  "thesis.bbl" 1716630630 3195 dab238ed05a3da60b00129f84a00ad7e "bibtex thesis"
-  "thesis.gls-abr" 1716630630 845 e8fee6641bbab27b3b0f7fca5b9c1fd0 "cusdep glo-abr gls-abr thesis"
-  "thesis.syi" 1716630630 6 9f404503043ec80c08484be9f659189e ""
+  "thesis.bbl" 1716714151 5149 6143f6b554c4ff1267f56733c294efca "bibtex thesis"
+  "thesis.gls-abr" 1716714151 1000 8aca4ce0196a69a1a15c4ad1133080e3 "cusdep glo-abr gls-abr thesis"
+  "thesis.syi" 1716714151 6 9f404503043ec80c08484be9f659189e ""
   "thesis.tex" 1716456319 4586 042bfe2051250928775d0a4a591159ad ""
   (generated)
   "/Users/macbook-air/TA-ical/build/thesis.app"

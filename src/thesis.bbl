@@ -6,10 +6,24 @@ Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., and Ayyash, M. (2015).
   applications.
 \newblock {\em IEEE Communications Surveys {\&} Tutorials}, 17(4):2347--2376.
 
+\bibitem[Ananthanarayanan dkk., 2017]{killer}
+Ananthanarayanan, G., Bahl, P., Bodík, P., Chintalapudi, K., Philipose, M.,
+  Ravindranath, L., and Sinha, S. (2017).
+\newblock Real-time video analytics: The killer app for edge computing.
+\newblock {\em Computer}, 50(10):58--67.
+
 \bibitem[Cao dkk., 2020]{edgeComp2}
 Cao, K., Liu, Y., Meng, G., and Sun, Q. (2020).
 \newblock An overview on edge computing research.
 \newblock {\em IEEE Access}, 8:85714--85728.
+
+\bibitem[Chen dkk., 2015]{glimpse}
+Chen, T. Y.-H., Ravindranath, L., Deng, S., Bahl, P., and Balakrishnan, H.
+  (2015).
+\newblock Glimpse: Continuous, real-time object recognition on mobile devices.
+\newblock In {\em Proceedings of the 13th ACM Conference on Embedded Networked
+  Sensor Systems}, SenSys '15, page 155–168, New York, NY, USA. Association
+  for Computing Machinery.
 
 \bibitem[Du dkk., 2020]{dds}
 Du, K., Pervaiz, A., Yuan, X., Chowdhery, A., Zhang, Q., Hoffmann, H., and
@@ -33,6 +47,16 @@ Huang, Y., Zharfan, F., Hendrawan, Gunawi, H.~S., and Jiang, J. (2024).
 \newblock In {\em 2024 IEEE International Conference on Edge Computing {\&}
   Communications (EDGE 24)}. IEEE.
 
+\bibitem[IBM, 2021]{middleware}
+IBM (2021).
+
+\bibitem[Jiang dkk., 2018]{chameleon}
+Jiang, J., Ananthanarayanan, G., Bodik, P., Sen, S., and Stoica, I. (2018).
+\newblock Chameleon: scalable adaptation of video analytics.
+\newblock In {\em Proceedings of the 2018 Conference of the ACM Special
+  Interest Group on Data Communication}, SIGCOMM '18, page 253–266, New York,
+  NY, USA. Association for Computing Machinery.
+
 \bibitem[Khalifa, 2019]{smartCity}
 Khalifa, E. (2019).
 \newblock Smart cities: Opportunities, challenges, and security threats.
@@ -46,6 +70,16 @@ Khalifa, E. (2024a).
 
 \bibitem[Khalifa, 2024b]{plat}
 Khalifa, E. (2024b).
+
+\bibitem[Li dkk., 2020]{reducto}
+Li, Y., Padmanabhan, A., Zhao, P., Wang, Y., Xu, G.~H., and Netravali, R.
+  (2020).
+\newblock Reducto: On-camera filtering for resource-efficient real-time video
+  analytics.
+\newblock In {\em Proceedings of the Annual Conference of the ACM Special
+  Interest Group on Data Communication on the Applications, Technologies,
+  Architectures, and Protocols for Computer Communication}, SIGCOMM '20, page
+  359–376, New York, NY, USA. Association for Computing Machinery.
 
 \bibitem[Mao dkk., 2017]{edgeCompDis}
 Mao, Y., You, C., Zhang, J., Huang, K., and Letaief, K.~B. (2017).
@@ -67,6 +101,13 @@ Wang, C., Zhang, S., Chen, Y., Qian, Z., Wu, J., and Xiao, M. (2020).
   edge-based real-time video analytics.
 \newblock In {\em IEEE INFOCOM 2020 - IEEE Conference on Computer
   Communications}, pages 257--266.
+
+\bibitem[Zhang dkk., 2018]{aws}
+Zhang, B., Jin, X., Ratnasamy, S., Wawrzynek, J., and Lee, E.~A. (2018).
+\newblock Awstream: adaptive wide-area streaming analytics.
+\newblock In {\em Proceedings of the 2018 Conference of the ACM Special
+  Interest Group on Data Communication}, SIGCOMM '18, page 236–252, New York,
+  NY, USA. Association for Computing Machinery.
 
 \bibitem[Zhang dkk., 2017]{videostorm}
 Zhang, H., Ananthanarayanan, G., Bodik, P., Philipose, M., Bahl, P., and

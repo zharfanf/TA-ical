@@ -28,7 +28,19 @@
     Lalu pada suatu periode tertentu, VideoStorm akan melakukan alokasi \textit{bandwidth} dengan menganalisis hasil dari beberapa detik sebelumnya dan menentukan \textit{bandwidth} yang sesuai dengan kebutuhannya.
     
     \subsection{Video Analytics Application}
-    
+
+    Faktor utama keberhasilan sebuah sistem \textit{Video Analytics} selaras dengan \textit{Video Analytics Application} (\gls{vap}) yang digunakan. Semakin cerdas \gls{vap}
+    maka akan semakin baik performansi yang dihasilkan oleh sistem. \citep{killer} mengatakan bahwa \gls{vap} merupakan sistem yang sangat kompleks jika ingin diterapkan pada jaringan \textit{edge}.
+    Hal ini diakibatkan oleh video yang memiliki ukuran data yang relatif besar dan waktu pemrosesan yang cukup lama. Sehingga diperlukan pertimbangan yang sangat matang dalam mendesain sebuah \gls{vap}.
+
+    Sebuah sistem \gls{vap} terdiri dari \textit{client}, \textit{middleware}, dan \textit{server}. \textit{Client} biasanya berupa kamera yang digunakan untuk menangkap video dan melakukan beberapa proses seperti \textit{encoding}
+    untuk dikirimkan kepada \textit{server}. \textit{Middleware} adalah sebuah sistem yang menghubungkan \textit{client} dengan \textit{server} yang berfungsi untuk menjamin keberlangsungan transmisi data antar keduanya \citep{middleware}.
+    Sementara \textit{server} berguna untuk memproses data seperti melakukan deteksi objek, mengklasifikasikan objek, atau melakukan kegiatan komputasi lainnya.
+
+    Beberapa \gls{vap} sudah diajukan diantaranya adalah \gls{dds} \citep{dds}, AWStream \citep{aws}, Reducto \citep{reducto}, dan Glimpse \citep{glimpse}.
+    \gls{dds} adalah sebuah \gls{vap} yang bekerja dengan cara mengirim video menggunakan 2 kali iterasi sehingga dapat diperoleh hasil yang baik. Salah satu persyaratan dalam mendesain \gls{vap}
+    adalah \textit{self-adaptability} \citep{chameleon}, hal ini bermakna bahwa \gls{vap} dapat beradaptasi dengan kondisi lingkungannya dengan cara mengubah konfigurasi videonya.
+
     % Float adalah \textit{container} untuk elemen-elemen dokumen yang tidak dapat dipisah menjadi beberapa halaman. Environment ``table'' dan ``figure'' secara default adalah float. Float berguna untuk memudahkan peletakan objek yang tidak cukup jika diletakkan di halaman sekarang. Peletakan float diatur oleh \LaTeX\ dan pengguna sebaiknya memberikan keleluasaan kepada \LaTeX\ agar dapat mengatur peletakan dengan baik. 
     
     \subsection{gRPC}
