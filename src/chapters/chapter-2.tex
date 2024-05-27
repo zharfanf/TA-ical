@@ -43,10 +43,36 @@
 
     % Float adalah \textit{container} untuk elemen-elemen dokumen yang tidak dapat dipisah menjadi beberapa halaman. Environment ``table'' dan ``figure'' secara default adalah float. Float berguna untuk memudahkan peletakan objek yang tidak cukup jika diletakkan di halaman sekarang. Peletakan float diatur oleh \LaTeX\ dan pengguna sebaiknya memberikan keleluasaan kepada \LaTeX\ agar dapat mengatur peletakan dengan baik. 
     
+    \subsection{Traffic Control}
+    \textit{Traffic control} atau lebih dikenal dengan tc adalah sebuah \textit{tools} pada linux yang dapat digunakan untuk memegang kendali atas trafik pada kernel linux \citep{tc}.
+    Beberapa fungsi utama dari tc adalah \textit{SHAPING}, \textit{SCHEDULING}, \textit{POLICING}, dan \textit{DROPPING}.
+
+    Salah satu \textit{use-case} yang paling sering digunakan yakni tc akan digunakan sebagai alat yang dapat mengontrol transmisi dari sebuah \textit{interface} jaringan,
+    salah satunya adalah untuk menurunkan atau mengelompokan  \textit{ingress bandwidth} ke beberapa \textit{virtual interface} sehingga kelakuannya dapat dikontrol.
+
     \subsection{gRPC}
-    \subsection{Traffic Controller}
-    \subsection{Python}
-    \subsection{Linux}
+    gRPC adalah sebuah \textit{framework} RPC atau \textit{Remote Procedure Call} \textit{open source} universal yang dikembangkan oleh Google \citep{grpc}.
+    gRPC digunakan sebagai \textit{tools} penghubung antar perangkat atau perangkat dengan \textit{server} yang dapat dicopot pasang secara mudah.
+    % \includesvg{./resources/grpc.svg}
+    \begin{figure}[tbh]
+        \centering
+        \includesvg[scale=0.75]{./resources/grpc.svg}
+        \caption{Use-Case gRPC \citep{grpc}}\label{fig:gRPC}
+    \end{figure}
+
+    gRPC adalah \textit{framework} RPC yang universal, hal ini bermakna bahwa gRPC mendukung komunikasi data menggunakan bahasa pemrograman yang berbeda
+    seperti yang ditunjukan pada Gambar \ref{fig:gRPC}. gRPC menggunakan \textit{Protocol Buffers} atau protobuf sebagai struktur data pada pesan yang dikirimkan,
+    secara sekilas, protobuf mirip seperti JSON, namun protobuf universal, lebih ringan, dan lebih cepat dari segi performansi.
+
+    gRPC mendukung berbagai macam jenis komunikasi yakni
+    \begin{enumerate}
+        \item \textit{Unary RPC} yaitu \textit{client} akan mengirimkan sebuah \textit{request} dan \textit{server} akan mengirimkan sebuah respon. Pada komunikasi ini, hanya \textit{server} yang dapat mengirimkan respon, tidak berlaku sebaliknya
+        \item \textit{Server streaming RPC} yaitu \textit{client} akan mengirimkan sebuah \textit{request} dan \textit{server} akan mengirimkan respon yang tak henti hingga pesannya selesai.
+        \item \textit{Client streaming RPC} yaitu kebalikannya dari \textit{Server streaming RPC}, yakni \textit{server} yang akan melakukan \textit{request} dan \textit{client} yang akan mengirimkan pesan tak henti.
+        \item \textit{Bidirectional streaming RPC} yaitu \textit{client} dan \textit{server} dapat mengirim \textit{request} dan mendapat respon dari satu sama lain
+    \end{enumerate}
+    % \subsection{Python}
+    % \subsection{Linux}
     % \subsubsection{Gambar}
     
     % Float bisa di-\textit{cross reference}. Contohnya Gambar~\ref{fig:contoh_gambar} adalah contoh gambar.
@@ -99,4 +125,5 @@
 \section{Persyaratan Desain}
 
 \section{Konsep Desain}
+\section{Pengembangan Desain}
 \blindtext

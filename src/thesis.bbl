@@ -40,6 +40,10 @@ Galanopoulos, A., Ayala-Romero, J.~A., Leith, D.~J., and Iosifidis, G. (2021).
 \newblock In {\em IEEE INFOCOM 2021 - IEEE Conference on Computer
   Communications}, pages 1--10.
 
+\bibitem[{gRPC}, 2024]{grpc}
+{gRPC} (2024).
+\newblock grpc - a high performance, open source universal rpc framework.
+
 \bibitem[Huang dkk., 2024]{concierge}
 Huang, Y., Zharfan, F., Hendrawan, Gunawi, H.~S., and Jiang, J. (2024).
 \newblock Concierge: Towards accuracy-driven bandwidth allocation for video
@@ -94,6 +98,10 @@ Reply, T. (2024).
 Satyanarayanan, M. (2017).
 \newblock The emergence of edge computing.
 \newblock {\em Computer}, 50(1):30--39.
+
+\bibitem[{The Linux Documentation Project}, 2024]{tc}
+{The Linux Documentation Project} (2024).
+\newblock tc - tool for controlling traffic in linux.
 
 \bibitem[Wang dkk., 2020]{jcab}
 Wang, C., Zhang, S., Chen, Y., Qian, Z., Wu, J., and Xiao, M. (2020).

@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
 Database file #1: references.bib
-You've used 20 entries,
+You've used 22 entries,
             1935 wiz_defined-function locations,
-            578 strings with 7228 characters,
-and the built_in function-call counts, 9345 in all, are:
-= -- 926
-> -- 438
-< -- 15
-+ -- 161
-- -- 154
-* -- 724
-:= -- 1541
-add.period$ -- 58
-call.type$ -- 20
-change.case$ -- 173
-chr.to.int$ -- 19
-cite$ -- 20
-duplicate$ -- 413
-empty$ -- 595
-format.name$ -- 174
-if$ -- 1934
+            586 strings with 7415 characters,
+and the built_in function-call counts, 9817 in all, are:
+= -- 974
+> -- 452
+< -- 17
++ -- 165
+- -- 158
+* -- 754
+:= -- 1635
+add.period$ -- 62
+call.type$ -- 22
+change.case$ -- 185
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 433
+empty$ -- 625
+format.name$ -- 180
+if$ -- 2020
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 15
-newline$ -- 94
-num.names$ -- 60
-pop$ -- 184
+newline$ -- 102
+num.names$ -- 66
+pop$ -- 192
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 189
 quote$ -- 0
-skip$ -- 345
+skip$ -- 363
 stack$ -- 0
-substring$ -- 528
+substring$ -- 552
 swap$ -- 133
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 132
 warning$ -- 0
-while$ -- 57
+while$ -- 61
 width$ -- 0
-write$ -- 256
+write$ -- 276
