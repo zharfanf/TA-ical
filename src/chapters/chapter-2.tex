@@ -123,6 +123,100 @@
     % \end{align}
 
 \section{Persyaratan Desain}
+    \textit{Resource allocator} yang dirancang akan diintegrasikan dengan sebuah \gls{vap} terbaik dari segi performansi yakni \gls{dds}.
+    Berdasarkan II.x, harus bisa memenuhi rancangan sebagai berikut. Ini nanti dielaborasiin lagi. Diturunin objektif seperti berikut
+    \begin{enumerate}
+        \item \textit{Resource allocator} bersifat real-time (\textit{Real-time design})
+        \item \textit{Resource allocator} harus bisa melakukan tradeoff yang minimal antara bandwidth dan akurasi (\textit{Optimal Trade-off})
+        \item \textit{Resource allocator} memiliki harga pengembangan yang minimal (\textit{Minimum Costs})
+    \end{enumerate}
+
+    Dari objektif tersebut, diturunkan subobjektif sebagai berikut. Bla Bla
+    % Comment this block if not needed
+    \begin{figure}[tbh]
+        \centering
+        \includesvg[scale=0.8]{./resources/Obj_Tree.svg}
+        \caption{Objective Tree}\label{fig:obj_tree}
+    \end{figure}
+
+    \begin{center}
+        \begin{tabular}{|m{9cm}|}
+            \hline
+
+            % (\begin{itemize}
+            %     \item Objektif 1: \textit{Real-time Design}
+            % \end{itemize})\\
+            % Lorem Ipsum \\
+            \begin{outline}
+                \1[$\bullet$] Objektif 1: \textit{Real-time Design}
+                    \2[$\circ$] Subojektif 1: Latensi Minimum
+                \1[$\bullet$] Objektif 2: \textit{Trade-off} optimal 
+                    \2[$\circ$] Subobjektif 2: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                \1[$\bullet$] Objektif 3: Harga minimum 
+                    \2[$\circ$] Subobjektif 3: Sistem operasi yang bersifat \textit{open source}
+            \end{outline}\\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    Dari subobjektif tersebut, lahirlah constraint sebagai berikut
+
+    \begin{center}
+        \begin{tabular}{|m{12cm}|}
+            \hline
+            \begin{outline}
+                \1[$\bullet$] Objektif 1: \textit{Real-time Design}
+                    \2[$\circ$] Subojektif 1: Latensi Minimum
+                        \3[$\centerdot$] \textit{Constraint}: Latensi E2E tidak melebihi 1 detik
+                \1[$\bullet$] Objektif 2: \textit{Trade-off} optimal 
+                    \2[$\circ$] Subobjektif 2: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                        \3[$\centerdot$] \textit{Constraint}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien sumber video
+                \1[$\bullet$] Objektif 3: Harga minimum 
+                    \2[$\circ$] Subobjektif 3: Sistem operasi yang bersifat \textit{open source}
+                        \3[$\centerdot$] \textit{Constraint}: Harus menggunakan sistem operasi Linux
+            \end{outline}\\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    trs lahir ini deh Fungsional
+
+    \begin{center}
+        \begin{tabular}{|m{5cm}|m{4cm}|m{3cm}|}
+            \hline
+            \thead{Subobjektif dan \textit{Constraint}} &  \thead{Persyaratan Fungsional} & \thead{Fungsi} \\
+            \hline
+            \begin{outline}
+                \0 \textbf{Subobjektif 1}: Latensi Minimum
+                    \1[] \textbf{\textit{Constraint}}: Latensi E2E tidak melebihi 1 detik
+                \0 \textbf{Subobjektif 2}: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                    \1[] \textbf{\textit{Constraint}}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien sumber video
+                \0 \textbf{Subobjektif 3}: Sistem operasi yang bersifat \textit{open source}
+                    \1[] \textbf{\textit{Constraint}}: Harus menggunakan sistem operasi Linux
+            \end{outline} & 
+            \begin{enumerate}
+                \item Latensi E2E (end-to-end)
+                pada sistem tidak lebih
+                dari 1 detik untuk
+                menghindari terjadinya
+                backlog saat pengukuran overhead
+                \item Kebutuhan alokasi efisien
+                terhadap ketersediaan
+                bandwidth yang terbatas
+                untuk mencapai nilai
+                akurasi inferensi yang
+                terbaik
+                \item Linux digunakan sebagai
+                operating system karena
+                beberapa program hanya
+                dapat berjalan pada OS
+                tersebut (contohnya: TC)
+            \end{enumerate} & \begin{enumerate}
+                \item lorem
+            \end{enumerate} \\
+            \hline
+        \end{tabular}
+    \end{center}
 
 \section{Konsep Desain}
 \section{Pengembangan Desain}
