@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  28 MAY 2024 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  29 MAY 2024 17:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1351,12 +1351,12 @@ Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 \glo@abbreviations@file=\write6
 \openout6 = `thesis.glo-abr'.
 
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 261
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 262
 .
 \glo@symbols@file=\write7
 \openout7 = `thesis.syg'.
 
-Package glossaries Info: Writing glossary file thesis.syg on input line 261.
+Package glossaries Info: Writing glossary file thesis.syg on input line 262.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
 e 23.
@@ -1707,7 +1707,7 @@ BAB 2.
 Package svg Info: Last page of `./svg-inkscape/grpc_svg-tex.pdf' is 1 on input 
 line 59.
  (./svg-inkscape/grpc_svg-tex.pdf_tex
-<./svg-inkscape/grpc_svg-tex.pdf, id=433, page=1, 415.5525pt x 246.1215pt>
+<./svg-inkscape/grpc_svg-tex.pdf, id=439, page=1, 415.5525pt x 246.1215pt>
 File: ./svg-inkscape/grpc_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/grpc_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/grpc_svg-tex.pdf , page1 used on input 
@@ -1715,143 +1715,220 @@ line 56.
 (pdftex.def)             Requested size: 311.66437pt x 184.59818pt.
 ) [7 <./svg-inkscape/grpc_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Obj_Tree_svg-tex.pdf' is 1 on in
-put line 138.
+put line 139.
  (./svg-inkscape/Obj_Tree_svg-tex.pdf_tex
-<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=449, page=1, 482.55281pt x 211.54031pt
+<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=456, page=1, 482.55281pt x 211.54031pt
 >
 File: ./svg-inkscape/Obj_Tree_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Obj_Tree_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Obj_Tree_svg-tex.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 386.04372pt x 169.23892pt.
-)
+) [8 <./svg-inkscape/Obj_Tree_svg-tex.pdf>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 143.
+(Font)              scaled to size 10.95pt on input line 170.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 151.
- [8 <./svg-inkscape/Obj_Tree_svg-tex.pdf>]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 170.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 187.
+(Font)              scaled to size 10.95pt on input line 173.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 173.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.95pt on input line 187.
+(Font)              scaled to size 10.95pt on input line 175.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 6063) in paragraph at lines 201--202
 []|\OT1/ntxtlf/b/n/10.95 Subobjektif 1\OT1/ntxtlf/m/n/10.95 : La-ten-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-\OT1/ntxtlf/b/n/10.95 Subobjektif 2\OT1/ntxtlf/m/n/10.95 : Alo-ka-si
+Underfull \hbox (badness 1796) in paragraph at lines 202--203
+[]\OT1/ntxtlf/b/it/10.95 Constraint\OT1/ntxtlf/m/n/10.95 : La-ten-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-\OT1/ntxtlf/m/it/10.95 ban-dwi-dth \OT1/ntxtlf/m/n/10.95 ter-ha-dap aku-ra-si
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+\OT1/ntxtlf/m/n/10.95 E2E (\OT1/ntxtlf/m/it/10.95 end-to-end\OT1/ntxtlf/m/n/10.
+95 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 4872) in paragraph at lines 203--204
+[]\OT1/ntxtlf/b/n/10.95 Subobjektif 2\OT1/ntxtlf/m/n/10.95 : Alo-ka-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+[]\OT1/ntxtlf/b/it/10.95 Constraint\OT1/ntxtlf/m/n/10.95 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\OT1/ntxtlf/m/n/10.95 Ke-ter-se-di-a-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\OT1/ntxtlf/m/it/10.95 ban-dwi-dth \OT1/ntxtlf/m/n/10.95 yang
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 204--205
+\OT1/ntxtlf/m/n/10.95 ter-ba-tas un-tuk kli-en
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 205--206
+\OT1/ntxtlf/b/n/10.95 Subobjektif 3\OT1/ntxtlf/m/n/10.95 : Sis-tem
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 206--207
 []\OT1/ntxtlf/b/it/10.95 Constraint\OT1/ntxtlf/m/n/10.95 : Ha-rus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 2818) in paragraph at lines 206--207
 \OT1/ntxtlf/m/n/10.95 meng-gu-nak-an sis-tem
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 198--203
-\OT1/ntxtlf/m/n/10.95 ti-dak le-bih da-ri
+Underfull \hbox (badness 10000) in paragraph at lines 209--214
+[]\OT1/ntxtlf/m/n/10.95 Latensi E2E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--203
-\OT1/ntxtlf/m/n/10.95 1 de-tik un-tuk
+Underfull \hbox (badness 2165) in paragraph at lines 209--214
+\OT1/ntxtlf/m/n/10.95 (\OT1/ntxtlf/m/it/10.95 end-to-end\OT1/ntxtlf/m/n/10.95 )
+ pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--203
+Underfull \hbox (badness 10000) in paragraph at lines 209--214
 \OT1/ntxtlf/m/n/10.95 meng-hin-da-ri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--203
+Underfull \hbox (badness 10000) in paragraph at lines 209--214
 \OT1/ntxtlf/m/n/10.95 sa-at pe-ngu-kur-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
 \OT1/ntxtlf/m/n/10.95 efi-si-en ter-ha-dap
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
 \OT1/ntxtlf/m/n/10.95 ke-ter-se-di-a-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
-\OT1/ntxtlf/m/n/10.95 ban-dwi-dth yang
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
+\OT1/ntxtlf/m/it/10.95 ban-dwi-dth \OT1/ntxtlf/m/n/10.95 yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
 \OT1/ntxtlf/m/n/10.95 ter-ba-tas un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
 \OT1/ntxtlf/m/n/10.95 men-ca-pai ni-lai
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
 \OT1/ntxtlf/m/n/10.95 aku-ra-si in-fe-ren-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--214
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
 []\OT1/ntxtlf/m/n/10.95 Linux di-gu-nak-an
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 209--214
-\OT1/ntxtlf/m/n/10.95 se-ba-gai ope-ra-ting
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 se-ba-gai sis-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--214
-\OT1/ntxtlf/m/n/10.95 sys-tem ka-re-na
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 ope-ra-si ka-re-na
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 209--214
-\OT1/ntxtlf/m/n/10.95 be-be-ra-pa pro-gram
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 be-be-ra-pa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--214
-\OT1/ntxtlf/m/n/10.95 ha-nya da-pat
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 pro-gram ha-nya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--214
-\OT1/ntxtlf/m/n/10.95 ber-jal-an pa-da
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 da-pat ber-jal-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--214
-\OT1/ntxtlf/m/n/10.95 OS ter-se-but
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 pa-da sis-tem
  []
 
-[9])
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
+\OT1/ntxtlf/m/n/10.95 ope-ra-si ter-se-but
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+[]\OT1/ntxtlf/m/n/10.95 Mendesain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+\OT1/ntxtlf/m/n/10.95 sis-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+[]\OT1/ntxtlf/m/n/10.95 Menjalankan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+\OT1/ntxtlf/m/n/10.95 al-go-ri-tma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+[]\OT1/ntxtlf/m/n/10.95 Menggunakan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+\OT1/ntxtlf/m/n/10.95 Li-nux be-ser-ta
+ []
+
+Package svg Info: Last page of `./svg-inkscape/Resource_Allocator_svg-tex.pdf' 
+is 1 on input line 238.
+(./svg-inkscape/Resource_Allocator_svg-tex.pdf_tex
+<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=509, page=1, 414.79968pt x 6
+55.69969pt>
+File: ./svg-inkscape/Resource_Allocator_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Resource_Allocator_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Resource_Allocator_svg-tex.pdf , page1 
+used on input line 56.
+(pdftex.def)             Requested size: 331.841pt x 524.58047pt.
+))
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-3.tex [10] [11]
+(./chapters/chapter-3.tex [9] [10] [11] [12 <./svg-inkscape/Resource_Allocator_
+svg-tex.pdf>]
 BAB 3.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1866,9 +1943,9 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 101.
 
-(./chapters/chapter-4.tex [12
+(./chapters/chapter-4.tex [13
 
-] [13]
+] [14]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1882,14 +1959,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[14
+[15
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-(./chapters/chapter-5.tex [15]
+(./chapters/chapter-5.tex [16]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1900,16 +1977,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 103.
 
-[16
+[17
 
-] (./thesis.bbl [17
+] (./thesis.bbl [18
 
 
-] [18]) [19] [20
+] [19]) [20] [21
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [21
+) (./chapters/appendix-2.tex [22
 
 
 
@@ -1917,23 +1994,23 @@ Lampiran A.
 Lampiran B.
 )
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 189.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 190.
 See the caption package documentation for explanation.
 
-[22
+[23
 
 ] (/Users/macbook-air/TA-ical/build/thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E4EE31AAF068C4912F99DBA5941CBE06;5059.
+(rerunfilecheck)             Checksum: B8F168C188B15C9741A55888ED4B97FE;5059.
  ) 
 Here is how much of TeX's memory you used:
- 40767 strings out of 478268
- 807276 string characters out of 5846347
- 1212520 words of memory out of 5000000
- 57976 multiletter control sequences out of 15000+600000
+ 40792 strings out of 478268
+ 808103 string characters out of 5846347
+ 1216719 words of memory out of 5000000
+ 57991 multiletter control sequences out of 15000+600000
  514140 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,16n,120p,1279b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,18n,120p,1279b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
@@ -1941,11 +2018,11 @@ r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 al/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texli
 ve/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (37 pages, 481592
+Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (38 pages, 560367
  bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 131 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 774 PDF objects out of 1000 (max. 8388607)
+ 624 compressed objects within 7 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 344 words of extra memory for PDF output out of 10000 (max. 10000000)
 

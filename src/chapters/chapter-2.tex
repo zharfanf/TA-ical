@@ -124,99 +124,120 @@
 
 \section{Persyaratan Desain}
     \textit{Resource allocator} yang dirancang akan diintegrasikan dengan sebuah \gls{vap} terbaik dari segi performansi yakni \gls{dds}.
-    Berdasarkan II.x, harus bisa memenuhi rancangan sebagai berikut. Ini nanti dielaborasiin lagi. Diturunin objektif seperti berikut
+    Dengan berbagai macam pertimbangan, sistem yang didesain harus bisa memenuhi rancangan mengikuti objektif sebagai berikut
     \begin{enumerate}
         \item \textit{Resource allocator} bersifat real-time (\textit{Real-time design})
         \item \textit{Resource allocator} harus bisa melakukan tradeoff yang minimal antara bandwidth dan akurasi (\textit{Optimal Trade-off})
         \item \textit{Resource allocator} memiliki harga pengembangan yang minimal (\textit{Minimum Costs})
     \end{enumerate}
 
-    Dari objektif tersebut, diturunkan subobjektif sebagai berikut. Bla Bla
+    Objektif-objektif yang disebutkan masih bersifat umum. Maka dari itu, akan dilakukan penjabaran dari tiap-tiap objektif dalam bentuk
+    pohon subobjektif seperti pada gambar \ref{fig:obj_tree} berikut ini
     % Comment this block if not needed
     \begin{figure}[tbh]
         \centering
         \includesvg[scale=0.8]{./resources/Obj_Tree.svg}
-        \caption{Objective Tree}\label{fig:obj_tree}
+        \caption{Pohon Objektif}\label{fig:obj_tree}
     \end{figure}
 
-    \begin{center}
-        \begin{tabular}{|m{9cm}|}
-            \hline
 
-            % (\begin{itemize}
-            %     \item Objektif 1: \textit{Real-time Design}
-            % \end{itemize})\\
-            % Lorem Ipsum \\
-            \begin{outline}
-                \1[$\bullet$] Objektif 1: \textit{Real-time Design}
-                    \2[$\circ$] Subojektif 1: Latensi Minimum
-                \1[$\bullet$] Objektif 2: \textit{Trade-off} optimal 
-                    \2[$\circ$] Subobjektif 2: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
-                \1[$\bullet$] Objektif 3: Harga minimum 
-                    \2[$\circ$] Subobjektif 3: Sistem operasi yang bersifat \textit{open source}
-            \end{outline}\\
-            \hline
-        \end{tabular}
+    % \begin{center}
+    %     \begin{tabular}{|m{9cm}|}
+    %         \hline
+
+    %         % (\begin{itemize}
+    %         %     \item Objektif 1: \textit{Real-time Design}
+    %         % \end{itemize})\\
+    %         % Lorem Ipsum \\
+    %         \begin{outline}
+    %             \1[$\bullet$] Objektif 1: \textit{Real-time Design}
+    %                 \2[$\circ$] Subojektif 1: Latensi Minimum
+    %             \1[$\bullet$] Objektif 2: \textit{Trade-off} optimal 
+    %                 \2[$\circ$] Subobjektif 2: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+    %             \1[$\bullet$] Objektif 3: Harga minimum 
+    %                 \2[$\circ$] Subobjektif 3: Sistem operasi yang bersifat \textit{open source}
+    %         \end{outline}\\
+    %         \hline
+    %     \end{tabular}
+    % \end{center}
+
+    Dari subobjektif tersebut, dibutuhkan suatu batasan agar desain memiliki sebuah acuan yang pasti dan batasan ini tidak bisa dilanggar.
+    Batasan atau \textit{constraint} yang ditentukan adalah seperti yang dapat ditemukan pada tabel \ref{tab:constraint}
+
+    \begin{center}
+        \begin{table}
+            \caption{Tabel \textit{Constraint} pada Subobjektif}\label{tab:constraint}
+            \begin{tabular}{|m{12cm}|}
+                \hline\\
+                \begin{outline}
+                    \1[$\bullet$] \textbf{Objektif 1}: \textit{Real-time Design}
+                    \2[$\circ$] \textbf{Subobjektif 1}: Latensi Minimum
+                    \3[$\circledcirc$] \textbf{\textit{Constraint}}: Latensi E2E tidak melebihi 1 detik
+                    \1[$\bullet$] \textbf{Objektif 2}: \textit{Trade-off} optimal 
+                    \2[$\circ$] \textbf{Subobjektif 2}: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                    \3[$\circledcirc$] \textbf{\textit{Constraint}}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien sumber video
+                    \1[$\bullet$] \textbf{Objektif 3}: Harga minimum 
+                    \2[$\circ$] \textbf{Subobjektif 3}: Sistem operasi yang bersifat \textit{open source}
+                    \3[$\circledcirc$] \textbf{\textit{Constraint}}: Harus menggunakan sistem operasi Linux
+                \end{outline}\\
+                \hline
+            \end{tabular}
+        \end{table}
     \end{center}
 
-    Dari subobjektif tersebut, lahirlah constraint sebagai berikut
+%     Fungsi bermanfaat untuk mencapai objektif atau subobjektif melalui komponen-komponen desain yang konkrit. Hal ini dilakukan dengan menentukan persyaratan fungsional desain berdasarkan persyaratan objektif/subobjektif dan constraint. 
+% Dari persyaratan fungsional, selanjutnya diidentifikasi fungsi-fungsi untuk memenuhi persyaratan tersebut. Dengan demikian, fungsi dapat dipandang sebagai sebuah sistem, yang menerima sinyal masukan lalu memprosesnya sehingga dihasilkan sinyal luaran. Untuk merealisasikan fungsi yang kompleks, kita dapat membagi sistem menjadi beberapa subsistem yang lebih sederhana.
+    Berdasarkan Subobjektif dan \textit{constraint} yang sudah diturunkan, diperlukan sebuah fungsi yang bertujuan untuk memenuhi persyaratan subobjektif dan \textit{constraint}.
+    Selanjutnya akan diturunkan persyaratan fungsional dan identifikasi fungsi-fungsi yang dipandang akan menjadi sebuah sistem seperti pada tabel \ref{tab:functional}
 
     \begin{center}
-        \begin{tabular}{|m{12cm}|}
-            \hline
-            \begin{outline}
-                \1[$\bullet$] Objektif 1: \textit{Real-time Design}
-                    \2[$\circ$] Subojektif 1: Latensi Minimum
-                        \3[$\centerdot$] \textit{Constraint}: Latensi E2E tidak melebihi 1 detik
-                \1[$\bullet$] Objektif 2: \textit{Trade-off} optimal 
-                    \2[$\circ$] Subobjektif 2: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
-                        \3[$\centerdot$] \textit{Constraint}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien sumber video
-                \1[$\bullet$] Objektif 3: Harga minimum 
-                    \2[$\circ$] Subobjektif 3: Sistem operasi yang bersifat \textit{open source}
-                        \3[$\centerdot$] \textit{Constraint}: Harus menggunakan sistem operasi Linux
-            \end{outline}\\
-            \hline
-        \end{tabular}
-    \end{center}
-
-    trs lahir ini deh Fungsional
-
-    \begin{center}
-        \begin{tabular}{|m{5cm}|m{4cm}|m{3cm}|}
-            \hline
-            \thead{Subobjektif dan \textit{Constraint}} &  \thead{Persyaratan Fungsional} & \thead{Fungsi} \\
-            \hline
-            \begin{outline}
-                \0 \textbf{Subobjektif 1}: Latensi Minimum
-                    \1[] \textbf{\textit{Constraint}}: Latensi E2E tidak melebihi 1 detik
-                \0 \textbf{Subobjektif 2}: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
-                    \1[] \textbf{\textit{Constraint}}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien sumber video
-                \0 \textbf{Subobjektif 3}: Sistem operasi yang bersifat \textit{open source}
+        \begin{table}
+            \caption{Tabel Persyaratan Fungsional dan Fungsi}\label{tab:functional}
+            \begin{tabular}{|m{4.5cm}|m{4cm}|m{3.5cm}|}
+                \hline
+                \thead{Subobjektif dan \textit{Constraint}} &  \thead{Persyaratan Fungsional} & \thead{Fungsi} \\
+                \hline
+                \begin{outline}
+                    \0 \textbf{Subobjektif 1}: Latensi Minimum
+                    \1[] \textbf{\textit{Constraint}}: Latensi E2E (\textit{end-to-end}) tidak melebihi 1 detik
+                    \0 \textbf{Subobjektif 2}: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                    \1[] \textbf{\textit{Constraint}}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien \gls{vap}
+                    \0 \textbf{Subobjektif 3}: Sistem operasi yang bersifat \textit{open source}
                     \1[] \textbf{\textit{Constraint}}: Harus menggunakan sistem operasi Linux
-            \end{outline} & 
-            \begin{enumerate}
-                \item Latensi E2E (end-to-end)
-                pada sistem tidak lebih
-                dari 1 detik untuk
-                menghindari terjadinya
-                backlog saat pengukuran overhead
-                \item Kebutuhan alokasi efisien
-                terhadap ketersediaan
-                bandwidth yang terbatas
-                untuk mencapai nilai
-                akurasi inferensi yang
-                terbaik
-                \item Linux digunakan sebagai
-                operating system karena
-                beberapa program hanya
-                dapat berjalan pada OS
-                tersebut (contohnya: TC)
-            \end{enumerate} & \begin{enumerate}
-                \item lorem
-            \end{enumerate} \\
-            \hline
-        \end{tabular}
+                \end{outline} & 
+                \begin{enumerate}
+                    \item Latensi E2E (\textit{end-to-end})
+                    pada sistem tidak lebih
+                    dari 1 detik untuk
+                    menghindari terjadinya
+                    \textit{backlog} saat pengukuran \textit{overhead}
+                    \item Kebutuhan alokasi efisien
+                    terhadap ketersediaan
+                    \textit{bandwidth} yang terbatas
+                    untuk mencapai nilai
+                    akurasi inferensi yang
+                    terbaik
+                    \item Linux digunakan sebagai
+                    sistem operasi karena
+                    beberapa program hanya
+                    dapat berjalan pada sistem operasi
+                    tersebut (contohnya: TC)
+                \end{enumerate} & \begin{enumerate}
+                    \item Mendesain sistem \textit{multiprocessing}
+                    \item Menjalankan algoritma komputasi
+                    \item Menggunakan Linux beserta \textit{tools}-nya
+                \end{enumerate} \\
+                \hline
+            \end{tabular}
+        \end{table}
     \end{center}
+
+    % Insert flow chart here
+    \begin{figure}[tbh]
+        \centering
+        \includesvg[scale=0.8]{./resources/Resource_Allocator.svg}
+        \caption{Tingkah Laku Sistem}\label{fig:resource_alloc}
+    \end{figure}
 
 \section{Konsep Desain}
 \section{Pengembangan Desain}
