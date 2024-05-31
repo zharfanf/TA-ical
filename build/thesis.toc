@@ -25,16 +25,16 @@
 \contentsline {section}{\numberline {2.2}Persyaratan Desain}{8}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Konsep Desain}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Pengembangan Desain}{9}{section.2.4}%
-\contentsline {chapter}{\numberline {3}ANALISIS DAN PERANCANGAN}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Analisis Masalah}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Solusi Umum}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Rancangan Solusi}{13}{section.3.3}%
-\contentsline {chapter}{\numberline {4}EVALUASI DAN PEMBAHASAN}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Skenario Pengujian}{15}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Hasil Pengujian}{15}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Pembahasan}{16}{section.4.4}%
-\contentsline {chapter}{\numberline {5}PENUTUP}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{17}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{18}{chapter*.16}%
+\contentsline {chapter}{\numberline {3}ANALISIS DAN PERANCANGAN}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analisis Masalah}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Solusi Umum}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Rancangan Solusi}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}EVALUASI DAN PEMBAHASAN}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Skenario Pengujian}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Hasil Pengujian}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pembahasan}{17}{section.4.4}%
+\contentsline {chapter}{\numberline {5}PENUTUP}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{18}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{19}{chapter*.18}%

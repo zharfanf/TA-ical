@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  29 MAY 2024 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  31 MAY 2024 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1061,7 +1061,14 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count422
 \l__pdf_internal_box=\box98
-) (./thesis.aux)
+) (./thesis.aux
+
+LaTeX Warning: Label `tab:functional' multiply defined.
+
+
+LaTeX Warning: Label `tab:functional' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1369,7 +1376,7 @@ BAB 2.
 ] [6]
 Package svg Info: Last page of `./svg-inkscape/grpc_svg-tex.pdf' is 1 on input line 59.
  (./svg-inkscape/grpc_svg-tex.pdf_tex
-<./svg-inkscape/grpc_svg-tex.pdf, id=439, page=1, 415.5525pt x 246.1215pt>
+<./svg-inkscape/grpc_svg-tex.pdf, id=443, page=1, 415.5525pt x 246.1215pt>
 File: ./svg-inkscape/grpc_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/grpc_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/grpc_svg-tex.pdf , page1 used on input line 56.
@@ -1377,7 +1384,7 @@ Package pdftex.def Info: ./svg-inkscape/grpc_svg-tex.pdf , page1 used on input l
 ) [7 <./svg-inkscape/grpc_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Obj_Tree_svg-tex.pdf' is 1 on input line 139.
  (./svg-inkscape/Obj_Tree_svg-tex.pdf_tex
-<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=456, page=1, 482.55281pt x 211.54031pt>
+<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=460, page=1, 482.55281pt x 211.54031pt>
 File: ./svg-inkscape/Obj_Tree_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Obj_Tree_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Obj_Tree_svg-tex.pdf , page1 used on input line 56.
@@ -1570,17 +1577,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
 Package svg Info: Last page of `./svg-inkscape/Resource_Allocator_svg-tex.pdf' is 1 on input line 238.
 (./svg-inkscape/Resource_Allocator_svg-tex.pdf_tex
-<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=509, page=1, 414.79968pt x 655.69969pt>
+<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=513, page=1, 414.79968pt x 655.69969pt>
 File: ./svg-inkscape/Resource_Allocator_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Resource_Allocator_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Resource_Allocator_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 331.841pt x 524.58047pt.
-))
+)
+Underfull \hbox (badness 1189) in paragraph at lines 253--257
+\OT1/ntxtlf/m/n/10.95 Te-le-com-mu-ni-ca-tions and In-ter-net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
+\OT1/ntxtlf/m/n/10.95 Pro-to-col Har-mo-ni-za-tion Over
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
+\OT1/ntxtlf/m/n/10.95 Ne-tworks (TI-PHON): Ge-ne-ral
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 253--257
+\OT1/ntxtlf/m/n/10.95 as-pe-cts of Qu-a-li-ty of Se-rvi-ce
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
+\OT1/ntxtlf/m/n/10.95 Ap-pli-ca-tion Wi-th Real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
+\OT1/ntxtlf/m/n/10.95 ter-ha-dap aku-ra-si
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 258--258
+[]|\OT1/ntxtlf/m/n/10.95 Dapat me-ning-katk-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]|\OT1/ntxtlf/m/n/10.95 Sistem ope-ra-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+[]|\OT1/ntxtlf/b/n/10.95 Subobjektif\OT1/ntxtlf/m/n/10.95 : Alo-ka-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+\OT1/ntxtlf/m/n/10.95 in-fe-ren-si  \OT1/ntxtlf/b/it/10.95 Con-stra-int:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+\OT1/ntxtlf/m/n/10.95 Ke-ter-se-di-a-an \OT1/ntxtlf/m/it/10.95 ban-dwi-dth
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 292--294
+\OT1/ntxtlf/m/n/10.95 yang ter-ba-tas un-tuk kli-en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\OT1/ntxtlf/m/n/10.95 Melakukan pe-ngu-kur-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\OT1/ntxtlf/m/n/10.95 pe-nam-bah-an aku-ra-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\OT1/ntxtlf/m/n/10.95 meng-gu-nak-an be-be-ra-pa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\OT1/ntxtlf/m/n/10.95 DDS pa-da ban-dwi-dth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--313
+[]|\OT1/ntxtlf/m/n/10.95 Minimum 10%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--313
+\OT1/ntxtlf/m/n/10.95 (re-fe-ren-si:
+ []
+
+
+Overfull \hbox (133.25562pt too wide) in paragraph at lines 294--313
+\OT1/ntxtlf/m/n/10.95 ht-tps://dl.acm.org/doi/pdf/10.1145/3387514.3405887
+ []
+
+)
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-3.tex [9] [10] [11] [12 <./svg-inkscape/Resource_Allocator_svg-tex.pdf>]
+(./chapters/chapter-3.tex [9] [10] [11] [12] [13 <./svg-inkscape/Resource_Allocator_svg-tex.pdf>]
 BAB 3.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1595,9 +1697,9 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 101.
 
-(./chapters/chapter-4.tex [13
+(./chapters/chapter-4.tex [14
 
-] [14]
+] [15]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1611,14 +1713,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[15
+[16
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-(./chapters/chapter-5.tex [16]
+(./chapters/chapter-5.tex [17]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1629,16 +1731,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 103.
 
-[17
+[18
 
-] (./thesis.bbl [18
+] (./thesis.bbl [19
 
 
-] [19]) [20] [21
+] [20]) [21] [22
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [22
+) (./chapters/appendix-2.tex [23
 
 
 
@@ -1649,25 +1751,28 @@ Lampiran B.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 190.
 See the caption package documentation for explanation.
 
-[23
+[24
 
 ] (./thesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B8F168C188B15C9741A55888ED4B97FE;5059.
+(rerunfilecheck)             Checksum: 84D54F27180A21B1CD4DF19BDBF449D5;5059.
  ) 
 Here is how much of TeX's memory you used:
- 40682 strings out of 478268
- 805030 string characters out of 5846347
- 1215800 words of memory out of 5000000
+ 40685 strings out of 478268
+ 805069 string characters out of 5846347
+ 1220839 words of memory out of 5000000
  57895 multiletter control sequences out of 15000+600000
  514140 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,18n,120p,1310b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (38 pages, 560366 bytes).
+Output written on thesis.pdf (39 pages, 563138 bytes).
 PDF statistics:
- 774 PDF objects out of 1000 (max. 8388607)
- 624 compressed objects within 7 object streams
- 137 named destinations out of 1000 (max. 500000)
+ 785 PDF objects out of 1000 (max. 8388607)
+ 634 compressed objects within 7 object streams
+ 140 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
 

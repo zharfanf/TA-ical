@@ -240,5 +240,80 @@
     \end{figure}
 
 \section{Konsep Desain}
+
+    Metrik Objektif
+    \begin{center}
+        \begin{table}
+            \caption{Tabel Persyaratan Fungsional dan Fungsi}\label{tab:functional}
+            \begin{tabular}{|m{3cm}|m{3.5cm}|m{5.5cm}|}
+                \hline
+                \thead{Subobjektif} &  \thead{Metrik Pengukuran} & \thead{Syarat Pemenuhan} \\
+                \hline
+                Latensi Minimum & Tidak lebih dari 1 detik & \begin{outline}
+                    \0 Standard ETSI TR 101 329 V2.1.1; Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON): General aspects of Quality of Service (QoS)
+                    \vspace{0.8cm}
+                    \0 Standard IEEE POSIX.4; Application With Real-time Application
+                \end{outline} \\
+                \hline
+                Alokasi \textit{bandwidth} terhadap akurasi \textit{inference} & Dapat meningkatkan akurasi sebesar 10\% & Minimum 10\% \citep{dds}\\
+                \hline
+                Sistem operasi yang bersifat \textit{open source} & 40\% biaya digunakan dari total biaya yang dianggarkan & Maksimum 40\% dari total biaya\\
+                % \begin{outline}
+                %     \0 \textbf{Subobjektif 1}: Latensi Minimum
+                %     % \1[] \textbf{\textit{Constraint}}: Latensi E2E (\textit{end-to-end}) tidak melebihi 1 detik
+                %     \0 \textbf{Subobjektif 2}: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                %     % \1[] \textbf{\textit{Constraint}}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien \gls{vap}
+                %     \0 \textbf{Subobjektif 3}: Sistem operasi yang bersifat \textit{open source}
+                %     % \1[] \textbf{\textit{Constraint}}: Harus menggunakan sistem operasi Linux
+                % \end{outline} & 
+                % \begin{outline}
+                %     \item Tidak lebih dari 1 detik
+                %     \item Dapat meningkatkan akurasi sebesar 10\%
+                %     \item 40\% biaya digunakan dari total biaya yang dianggarkan
+                % \end{outline} & \begin{outline}
+                %     \item Mendesain sistem \textit{multiprocessing}
+                %     \item Menjalankan algoritma komputasi
+                %     \item Menggunakan Linux beserta \textit{tools}-nya
+                % \end{outline} \\
+                \hline
+            \end{tabular}
+        \end{table}
+    \end{center}
+
+    Pengukuran Constraint
+    \begin{center}
+        \begin{table}
+            \caption{Tabel Persyaratan Fungsional dan Fungsi}\label{tab:functional}
+            \begin{tabular}{|m{4.5cm}|m{4cm}|m{3.5cm}|}
+                \hline
+                \thead{Subobjektif dan \textit{Constraint}} &  \thead{Cara Pengukuran} & \thead{Syarat Pemenuhan} \\
+                \hline
+                \begin{outline}
+                \0 \textbf{Subobjektif}: Alokasi \textit{bandwidth} terhadap akurasi inferensi 
+                \0 \textbf{\textit{Constraint:}} Ketersediaan \textit{bandwidth} yang terbatas untuk klien sumber video
+                \end{outline} & Melakukan pengukuran penambahan akurasi menggunakan beberapa DDS pada bandwidth yang sama & Minimum 10\%
+                (referensi: https://dl.acm.org/doi/pdf/10.1145/3387514.3405887 [1]) \\
+                % \begin{outline}
+                %     \0 \textbf{Subobjektif 1}: Latensi Minimum
+                %     % \1[] \textbf{\textit{Constraint}}: Latensi E2E (\textit{end-to-end}) tidak melebihi 1 detik
+                %     \0 \textbf{Subobjektif 2}: Alokasi \textit{bandwidth} terhadap akurasi \textit{inference}
+                %     % \1[] \textbf{\textit{Constraint}}: Ketersediaan \textit{bandwidth} yang terbatas untuk klien \gls{vap}
+                %     \0 \textbf{Subobjektif 3}: Sistem operasi yang bersifat \textit{open source}
+                %     % \1[] \textbf{\textit{Constraint}}: Harus menggunakan sistem operasi Linux
+                % \end{outline} & 
+                % \begin{outline}
+                %     \item Tidak lebih dari 1 detik
+                %     \item Dapat meningkatkan akurasi sebesar 10\%
+                %     \item 40\% biaya digunakan dari total biaya yang dianggarkan
+                % \end{outline} & \begin{outline}
+                %     \item Mendesain sistem \textit{multiprocessing}
+                %     \item Menjalankan algoritma komputasi
+                %     \item Menggunakan Linux beserta \textit{tools}-nya
+                % \end{outline} \\
+                \hline
+            \end{tabular}
+        \end{table}
+    \end{center}
+
 \section{Pengembangan Desain}
 \blindtext
