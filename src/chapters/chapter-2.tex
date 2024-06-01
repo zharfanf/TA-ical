@@ -316,4 +316,111 @@
     \end{center}
 
 \section{Pengembangan Desain}
+    Pada hakikatnya, \textit{resource allocator} adalah sebuah perangkat lunak dapat dipasang di mana saja
+    Terdapat 2 hal yang patut dipertimbangkan dalam pemilihan desain sistem, yakni bahasa pemrograman dan algoritma komputasi.
+    Pemilihan 2 hal tersebut harus mempertimbangkan spesifikasi yang sebelumnya sudah disebutkan yakni sistem harus dapat berjalan di bawah 1 detik
+    Lebih lanjut mengenai pemilihan bahasa pemrograman dan algoritma komputasi akan dibahas padan bagian berikut.
+    \subsection{Alternatif Bahasa Pemrograman}
+        Pemilihan bahasa pemrograman merupakan hal yang sangat krusial terhadap proses desain dan pemilihan \textit{tools} yang digunakan. 
+        Beberapa bahasa pemrograman dibuat hanya untuk kasus tertentu. Setelah melakukan beberapa studi literatur, penulis menyimpulkan 2 bahasa pemrograman
+        yang cocok digunakan pada sistem ini, Yakni Python dan JavaScript.
+
+        Python merupakan sebuah bahasa pemrograman tingkat tinggi, berorientasi objek, dan
+        terinterpretasi [17]. Tidak seperti bahasa lainnya, Python memiliki struktur data yang dinamis,
+        sehingga memudahkan developer dalam mengembangkan aplikasi yang membutuhkan waktu
+        pengembangan yang cepat. Python dikembangkan pertama kali dikembangkan oleh Guido van
+        Rossum pada tahun 1980an, pada saat ini Python telah berkembang menjadi sebuah bahasa
+        pemrograman yang open source dan telah memiliki komunitasnya tersendiri [18]. Berikut ini
+        adalah keunggulan dan kekurangan dari Bahasa pemrograman Python [19], [20].
+
+            % Keunggulan:
+            % \begin{enumerate}
+            %     \item Memiliki komunitas yang besar
+            %     \item Memiliki banyak pilihan library untuk berbagai macam kebutuhan seperti visualisasi data, machine learning, dan scientific computing
+            %     \item Python memiliki efektifitas yang relatif tinggi dibandingkan bahasa pemrograman lainnya, hal ini memungkinkan developer untuk menulis lebih sedikit kode untuk hasil yang sama
+            %     \item Portabilitas, hal ini memungkinkan program dapat dijalankan pada sistem operasi yang berbeda-beda tanpa mengubah kode
+            %     \item Memiliki use case yang sangat luas (Data Science, Game Development, Machine Learning, Backend Web Application Development, Cybersecurity, dll)
+            % \end{enumerate}
+
+            % Kekurangan: 
+            % \begin{enumerate}
+            %     \item 
+            % \end{enumerate}
+
+        Javascript merupakan sebuah bahasa pemrograman/scripting yang digunakan untuk
+        mengimplementasikan fitur-fitur kompleks pada sebuah web page seperti peng-update-an
+        konten, pengontrolan multimedia, penganimasian gambar, dll. Pada awalnya Javascript hanya
+        diperuntukan untuk web page saja, namun pada saat ini Javascript dapat digunakan sebagai
+        bahasa yang digunakan pada backend [21]. Berikut ini adalah keunggulan dan kekurangan dari
+        Javascript [22]–[24].
+
+        \begin{table}
+            \begin{center}
+                \caption{Tabel Pemilihan Bahasa Pemrograman}\label{tab:pythonOrJs}
+                \begin{tabular}{|c|c|c|}
+                    \hline
+                    \thead{Spesifikasi} & \thead{Python} & \thead{JavaScript}\\
+                    \hline
+                    \textit{Cross Platform} & \ding{51} & \ding{51}\\
+                    \hline 
+                    \textit{Easy Implementation} & \ding{51} & \ding{55}\\
+                    \hline
+                    \textit{Multithreading} & \ding{55} & \ding{51}\\
+                    \hline 
+                    \textit{Datascience \& Scientific Computing Friendly} & \ding{51} & \ding{55}\\
+                    \hline
+                \end{tabular}
+            \end{center}
+        \end{table}
+
+        Dari kedua hal tersebut, dapat diketahui bahwa bahasa pemgrograman yang dipilih adalah python karena mendukung scientific computing
+        yang mana hal tersebut sangat krusial pada resource allocator yang menggunakan linear programming dalam pengalokasian bw nya.
+
+    \subsection{Alternatif Algoritma Komputasi}
+        Realtime system tidak akan terwujud tanpa adanya algoritma yang efisien dan kencang. Berikut adalah beberapa alternatif algoritma komputasi untuk mengalokasikan bw
+        yakni offline learning dan online learning.
+
+        % Offline Learning
+        Offline learning adalah sebuah teknik pembelajaran yang dilakukan oleh sebuah model machine
+        learning atau decision maker atau biasa dikenal sebagai batch training. Sebelum melakukan
+        pembelajaran, sistem akan mengumpulkan data terlebih dahulu, setelahnya model akan
+        dilakukan training dengan menggunakan data tersebut. Dalam kasus lain, offline learning akan
+        menghasilkan nilai weight yang seragam pada setiap decision pada data yang akan dating [25].
+        Berikut ini adalah kelebihan dan kekurangan teknik offline learning
+        Offline learning memiliki banyak kelebihan yakni waktu training yang relatif cepat dan
+        kompleksitas yang kecil sehingga dapat memenuhi persyaratan fungsional real-time processing
+        pada resource allocator, namun apabila konten dari video bersifat dinamis, hal ini tidak akan
+        memberikan dampak yang begitu signifikan karena weight dari model tidak adaptif.
+
+        % Online Learning
+        Online learning adalah sebuah teknik pembelajaran yang dilakukan oleh sebuah model machine
+        learning atau decision maker sebagai kebalikan dari offline learning. Berbeda dengan model
+        pembelajaran sebelumnya, pada online learning, data tidak dikumpulkan terlebih dahulu,
+        namun data yang masuk akan di-training dengan mempertimbangkan model sebelumnya, hal
+        ini akan terus berlangsung hingga program selesai. Alhasil besarnya weight pada tiap iterasi
+        akan berbeda [25]. Berikut ini adalah kelebihan dan kekurangan teknik online learning
+        Walaupun online learning memiliki banyak kekurangan dalam proses pengimplementasiannya,
+        namun model online learning sangat cocok diimplementasikan pada video yang jumlah
+        kontennya berubah-berubah.
+
+        \begin{table}
+            \begin{center}
+                \caption{Tabel Pemilihan Algoritma Komputasi}\label{tab:onlineOrOffline}
+                \begin{tabular}{|c|c|c|}
+                    \hline
+                    \thead{Spesifikasi} & \thead{Online Learning} & \thead{Offline Learning}\\
+                    \hline
+                    \textit{Computational Efficient} & \ding{55} & \ding{51}\\
+                    \hline 
+                    \textit{Low Complexity} & \ding{55} & \ding{51}\\
+                    \hline
+                    \textit{Resource Offloading, \ding{51} means bad} & \ding{51} & \ding{55}\\
+                    \hline 
+                    \textit{Content Pattern-Independent} & \ding{51} & \ding{55}\\
+                    \hline
+                \end{tabular}
+            \end{center}
+        \end{table}
+
+        Dari hal tersebut, maka dipilih algoritma komputasi offline learning karena edge computing dan sumber daya yang terbatas.
 \blindtext
