@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  1 JUN 2024 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  2 JUN 2024 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1686,12 +1686,12 @@ Overfull \hbox (133.25562pt too wide) in paragraph at lines 294--313
 \OT1/ntxtlf/m/n/10.95 ht-tps://dl.acm.org/doi/pdf/10.1145/3387514.3405887
  []
 
-[9] [10] [11] [12])
+[9] [10] [11] [12] [13])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-3.tex [13] [14] [15 <./svg-inkscape/Resource_Allocator_svg-tex.pdf>]
+(./chapters/chapter-3.tex [14] [15 <./svg-inkscape/Resource_Allocator_svg-tex.pdf>]
 BAB 3.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1770,18 +1770,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AC18387A7F1FCD242987E9346D44578C;5059.
  ) 
 Here is how much of TeX's memory you used:
- 40754 strings out of 478268
- 806361 string characters out of 5846347
- 1221540 words of memory out of 5000000
- 57947 multiletter control sequences out of 15000+600000
+ 40756 strings out of 478268
+ 806380 string characters out of 5846347
+ 1221566 words of memory out of 5000000
+ 57948 multiletter control sequences out of 15000+600000
  515190 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,18n,120p,1310b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (41 pages, 574070 bytes).
+Output written on thesis.pdf (41 pages, 574680 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 147 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
 

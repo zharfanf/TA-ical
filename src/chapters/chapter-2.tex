@@ -316,19 +316,22 @@
     \end{center}
 
 \section{Pengembangan Desain}
-    Pada hakikatnya, \textit{resource allocator} adalah sebuah perangkat lunak dapat dipasang di mana saja
-    Terdapat 2 hal yang patut dipertimbangkan dalam pemilihan desain sistem, yakni bahasa pemrograman dan algoritma komputasi.
-    Pemilihan 2 hal tersebut harus mempertimbangkan spesifikasi yang sebelumnya sudah disebutkan yakni sistem harus dapat berjalan di bawah 1 detik
-    Lebih lanjut mengenai pemilihan bahasa pemrograman dan algoritma komputasi akan dibahas padan bagian berikut.
+    Pada hakikatnya, \textit{resource allocator} adalah sebuah perangkat lunak yang bersifat general dan ringan, artinya sistem harus dapat berjalan pada sistem manapun
+    dan dapat melakukan komputasi secara cepat. Dengan demikian, terdapat 2 hal yang patut dipertimbangkan dalam pemilihan desain sistem, yakni bahasa pemrograman dan algoritma komputasi.
+    Pemilihan 2 hal tersebut harus dapat memenuhi syarat fungsional yang sebelumnya sudah disebutkan yakni sistem harus dapat berjalan di bawah 1 detik.
+    Lebih lanjut mengenai pemilihan bahasa pemrograman dan algoritma komputasi akan dibahas pada bagian berikut ini.
     \subsection{Alternatif Bahasa Pemrograman}
         Pemilihan bahasa pemrograman merupakan hal yang sangat krusial terhadap proses desain dan pemilihan \textit{tools} yang digunakan. 
-        Beberapa bahasa pemrograman dibuat hanya untuk kasus tertentu. Setelah melakukan beberapa studi literatur, penulis menyimpulkan 2 bahasa pemrograman
+        Beberapa bahasa pemrograman dibuat hanya untuk kasus tertentu. Setelah melakukan beberapa studi literatur, penulis memilih 2 bahasa pemrograman
         yang cocok digunakan pada sistem ini, Yakni Python dan JavaScript.
 
         Python merupakan sebuah bahasa pemrograman tingkat tinggi, berorientasi objek, dan
-        terinterpretasi [17]. Tidak seperti bahasa lainnya, Python memiliki struktur data yang dinamis,
-        sehingga memudahkan developer dalam mengembangkan aplikasi yang membutuhkan waktu
-        pengembangan yang cepat. Python dikembangkan pertama kali dikembangkan oleh Guido van
+        terinterpretasi \citep{python}. Tidak seperti bahasa lainnya, Python memiliki struktur data yang dinamis,
+        sehingga memudahkan \textit{developer} dalam mengembangkan aplikasi yang membutuhkan waktu
+        pengembangan yang cepat. Python banyak digunakan oleh scientist karena memiliki scientific library yang sangat luas
+        Python memiliki scientific library yang sangat beragam dan luas, dengan demikian Python banyak digunakan oleh scientist untuk computing
+        
+        Python dikembangkan pertama kali dikembangkan oleh Guido van
         Rossum pada tahun 1980an, pada saat ini Python telah berkembang menjadi sebuah bahasa
         pemrograman yang open source dan telah memiliki komunitasnya tersendiri [18]. Berikut ini
         adalah keunggulan dan kekurangan dari Bahasa pemrograman Python [19], [20].
@@ -352,7 +355,8 @@
         konten, pengontrolan multimedia, penganimasian gambar, dll. Pada awalnya Javascript hanya
         diperuntukan untuk web page saja, namun pada saat ini Javascript dapat digunakan sebagai
         bahasa yang digunakan pada backend [21]. Berikut ini adalah keunggulan dan kekurangan dari
-        Javascript [22]–[24].
+        Javascript [22]–[24]. 
+        JavaScript memiliki fitur multithreading yang berguna ketika melakukan beberapa pemrosesan dalam waktu yang bersamaan
 
         \begin{table}
             \begin{center}
