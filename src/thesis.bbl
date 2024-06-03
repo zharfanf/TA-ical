@@ -25,6 +25,10 @@ Chen, T. Y.-H., Ravindranath, L., Deng, S., Bahl, P., and Balakrishnan, H.
   Sensor Systems}, SenSys '15, page 155–168, New York, NY, USA. Association
   for Computing Machinery.
 
+\bibitem[{codingninjas}, 2024]{jsDisad}
+{codingninjas} (2024).
+\newblock Advantages and disadvantages of node.js - coding ninjas.
+
 \bibitem[Du dkk., 2020]{dds}
 Du, K., Pervaiz, A., Yuan, X., Chowdhery, A., Zhang, Q., Hoffmann, H., and
   Jiang, J. (2020).
@@ -89,6 +93,10 @@ Li, Y., Padmanabhan, A., Zhao, P., Wang, Y., Xu, G.~H., and Netravali, R.
 Mao, Y., You, C., Zhang, J., Huang, K., and Letaief, K.~B. (2017).
 \newblock A survey on mobile edge computing: The communication perspective.
 \newblock {\em IEEE Communications Surveys {\&} Tutorials}, 19(4):2322--2358.
+
+\bibitem[{MDN}, 2024]{js}
+{MDN} (2024).
+\newblock What is javascript? - learn web development.
 
 \bibitem[{Python}, 2024]{python}
 {Python} (2024).

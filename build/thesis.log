@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  1 JUN 2024 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  3 JUN 2024 16:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2038,12 +2038,12 @@ Overfull \hbox (133.25562pt too wide) in paragraph at lines 294--313
 \OT1/ntxtlf/m/n/10.95 ht-tps://dl.acm.org/doi/pdf/10.1145/3387514.3405887
  []
 
-[9] [10] [11] [12])
+[9] [10] [11] [12] [13])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
-(./chapters/chapter-3.tex [13] [14] [15 <./svg-inkscape/Resource_Allocator_svg-
+(./chapters/chapter-3.tex [14] [15] [16 <./svg-inkscape/Resource_Allocator_svg-
 tex.pdf>]
 BAB 3.
 
@@ -2059,9 +2059,9 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 101.
 
-(./chapters/chapter-4.tex [16
+(./chapters/chapter-4.tex [17
 
-] [17]
+] [18]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -2075,14 +2075,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[18
+[19
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-(./chapters/chapter-5.tex [19]
+(./chapters/chapter-5.tex [20]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -2093,16 +2093,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 103.
 
-[20
+[21
 
-] (./thesis.bbl [21
+] (./thesis.bbl [22
 
 
-] [22]) [23] [24
+] [23]) [24] [25
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [25
+) (./chapters/appendix-2.tex [26
 
 
 
@@ -2113,7 +2113,7 @@ Lampiran B.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 191.
 See the caption package documentation for explanation.
 
-[26
+[27
 
 ] (/Users/macbook-air/TA-ical/build/thesis.aux)
 
@@ -2123,10 +2123,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AC18387A7F1FCD242987E9346D44578C;5059.
  ) 
 Here is how much of TeX's memory you used:
- 40864 strings out of 478268
- 809434 string characters out of 5846347
- 1222459 words of memory out of 5000000
- 58043 multiletter control sequences out of 15000+600000
+ 40871 strings out of 478268
+ 809492 string characters out of 5846347
+ 1222540 words of memory out of 5000000
+ 58046 multiletter control sequences out of 15000+600000
  515190 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,18n,120p,1279b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2138,11 +2138,11 @@ al/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist
 /fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (41 pages, 574070
+Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (42 pages, 576137
  bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 150 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
 
