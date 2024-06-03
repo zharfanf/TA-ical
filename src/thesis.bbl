@@ -12,6 +12,10 @@ Ananthanarayanan, G., Bahl, P., Bodík, P., Chintalapudi, K., Philipose, M.,
 \newblock Real-time video analytics: The killer app for edge computing.
 \newblock {\em Computer}, 50(10):58--67.
 
+\bibitem[{Budu, Emmanuella}, 2024]{online}
+{Budu, Emmanuella} (2024).
+\newblock Online learning vs. offline learning.
+
 \bibitem[Cao dkk., 2020]{edgeComp2}
 Cao, K., Liu, Y., Meng, G., and Sun, Q. (2020).
 \newblock An overview on edge computing research.
@@ -101,6 +105,10 @@ Mao, Y., You, C., Zhang, J., Huang, K., and Letaief, K.~B. (2017).
 \bibitem[{Python}, 2024]{python}
 {Python} (2024).
 \newblock What is python?
+
+\bibitem[{qwak}, 2024]{offlineOnline}
+{qwak} (2024).
+\newblock Online vs offline machine learning - what's the difference?
 
 \bibitem[Reply, 2024]{5g}
 Reply, T. (2024).

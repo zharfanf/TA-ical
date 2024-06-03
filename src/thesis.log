@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  3 JUN 2024 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  3 JUN 2024 18:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,11 +1054,11 @@ Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 \glo@abbreviations@file=\write6
 \openout6 = `thesis.glo-abr'.
 
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 263.
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 265.
 \glo@symbols@file=\write7
 \openout7 = `thesis.syg'.
 
-Package glossaries Info: Writing glossary file thesis.syg on input line 263.
+Package glossaries Info: Writing glossary file thesis.syg on input line 265.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 23.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
@@ -1686,20 +1686,22 @@ Overfull \hbox (133.25562pt too wide) in paragraph at lines 294--313
 \OT1/ntxtlf/m/n/10.95 ht-tps://dl.acm.org/doi/pdf/10.1145/3387514.3405887
  []
 
-[9] [10] [11] [12] [13])
+[9] [10] [11] [12] [13]
+Underfull \hbox (badness 5726) in paragraph at lines 416--424
+\OT1/ntxtlf/m/n/12 ke-ba-lik-an da-ri offli-ne le-ar-ning. Pa-da onli-ne le-ar-ning, da-ta ti-dak
+ []
+
+)
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 100.
 
 (./chapters/chapter-3.tex [14] [15] [16 <./svg-inkscape/Resource_Allocator_svg-tex.pdf>]
 BAB 3.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 6.
 
 Package blindtext Warning: bahasa not defined, using English instead.
-(blindtext)                 on input line 5.
-
-
-Package blindtext Warning: bahasa not defined, using English instead.
-(blindtext)                 on input line 8.
+(blindtext)                 on input line 27.
 
 )
 
@@ -1757,7 +1759,7 @@ Lampiran A.
 Lampiran B.
 )
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 191.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 193.
 See the caption package documentation for explanation.
 
 [27
@@ -1770,18 +1772,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AC18387A7F1FCD242987E9346D44578C;5059.
  ) 
 Here is how much of TeX's memory you used:
- 40761 strings out of 478268
- 806419 string characters out of 5846347
- 1221621 words of memory out of 5000000
- 57950 multiletter control sequences out of 15000+600000
- 515190 words of font info for 126 fonts, out of 8000000 for 9000
+ 40804 strings out of 478268
+ 806963 string characters out of 5846347
+ 1221737 words of memory out of 5000000
+ 57977 multiletter control sequences out of 15000+600000
+ 522426 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,18n,120p,1310b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (42 pages, 576172 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on thesis.pdf (42 pages, 604711 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 150 named destinations out of 1000 (max. 500000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 689 compressed objects within 7 object streams
+ 153 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
 

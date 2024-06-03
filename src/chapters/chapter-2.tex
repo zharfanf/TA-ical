@@ -404,23 +404,23 @@
         learning atau decision maker yang biasa dikenal sebagai batch training. Sebelum melakukan
         pembelajaran, sistem akan mengumpulkan data terlebih dahulu, setelahnya model akan
         dilakukan training dengan menggunakan data tersebut. Dalam kasus lain, offline learning akan
-        menghasilkan nilai weight yang seragam pada setiap decision pada data yang akan dating [25].
-        Berikut ini adalah kelebihan dan kekurangan teknik offline learning
+        menghasilkan nilai weight yang seragam pada setiap decision pada data yang akan datang \citep{offlineOnline}.
         Offline learning memiliki banyak kelebihan yakni waktu training yang relatif cepat dan
         kompleksitas yang kecil sehingga dapat memenuhi persyaratan fungsional real-time processing
-        pada resource allocator, namun apabila konten dari video bersifat dinamis, hal ini tidak akan
-        memberikan dampak yang begitu signifikan karena weight dari model tidak adaptif.
+        pada resource allocator. Selain itu, karena proses training berlangsung dengan sangat singkat, maka tidak ada resource yang perlu dikorbankan. 
+        Namun, mode pembelajaran ini tidak terlalu bersifat adaptif, artinya ketika terjadi perubahan pola video,
+        decision maker tidak akan menyadari hal itu hingga waktu training selanjutnya. Sehingga dapat dikatakan bahwa 
+        offline learning cocok diterapkan pada jenis data yang memiliki pola yang seragam dan tidak cepat berubah.
 
         % Online Learning
-        Online learning adalah sebuah teknik pembelajaran yang dilakukan oleh sebuah model machine
-        learning atau decision maker sebagai kebalikan dari offline learning. Berbeda dengan model
-        pembelajaran sebelumnya, pada online learning, data tidak dikumpulkan terlebih dahulu,
-        namun data yang masuk akan di-training dengan mempertimbangkan model sebelumnya, hal
+        Sementara itu, Online learning adalah teknik pembelajaran yang merupakan kebalikan dari offline learning.
+        Pada online learning, data tidak dikumpulkan terlebih dahulu, namun data yang masuk akan di-training dengan mempertimbangkan model sebelumnya, hal
         ini akan terus berlangsung hingga program selesai. Alhasil besarnya weight pada tiap iterasi
-        akan berbeda [25]. Berikut ini adalah kelebihan dan kekurangan teknik online learning
-        Walaupun online learning memiliki banyak kekurangan dalam proses pengimplementasiannya,
-        namun model online learning sangat cocok diimplementasikan pada video yang jumlah
-        kontennya berubah-berubah.
+        akan berbeda \citep{online}. Secara umum, online learning bersifat adaptif, terkait hal sebelumnya, hal ini berarti bahwa online learning 
+        tahan terhadap data yang memiliki perubahan pola yang cepat dan beragam. Namun terdapat beberapa hal yang dikorbankan, salah satunya adalah kompleksitas
+        dan penggunaan resource. Karena proses pembelajaran akan terjadi selama terus menerus, hal ini mengakibatkan kompleksitas algoritma yang tinggi
+        memiliki kompleksitas yang lebih tinggi. Selain itu, proses pembelajaran tentunya akan menggunakan resource dan hal ini mengakibatkan server perlu 
+        mendedikasikan sebagian resourcenya untuk keberlangsungan pembalajaran.
 
         \begin{table}
             \begin{center}
@@ -433,7 +433,7 @@
                     \hline 
                     \textit{Low Complexity} & \ding{55} & \ding{51}\\
                     \hline
-                    \textit{Resource Offloading, \ding{51} means bad} & \ding{51} & \ding{55}\\
+                    \textit{Resource Offloading \ding{51} means bad} & \ding{51} & \ding{55}\\
                     \hline 
                     \textit{Content Pattern-Independent} & \ding{51} & \ding{55}\\
                     \hline
@@ -441,5 +441,6 @@
             \end{center}
         \end{table}
 
-        Dari hal tersebut, maka dipilih algoritma komputasi offline learning karena edge computing dan sumber daya yang terbatas.
+        Secara ringkas, perbandingan antara Python dan JavaScript adalah seperti pada tabel \ref{tab:onlineOrOffline}. Offline learning memenuhi 3 dari 4 persyaratan yang dikehendaki dan
+        online learning hanya memenuhi 1 dari 4 persyaratan yang dikehendaki.
 \blindtext
