@@ -99,12 +99,12 @@ def process_data(combinations_inferDiff, f1s_inferDiff, combinations_10s, f1s_10
     return (inferDiffDict_bw, fairAllocDict_bw, first10sDict_bw)
 
 # DDS
-combinations_dds_inferDiff = get_combination("dds-TA-randomCombs-inferdiff", "sanityCheck")
-f1s_dds_inferDiff = np.array(read_f1_score("dds-TA-randomCombs-inferdiff"))
-combinations_10s = get_combination("dds-TA-randomCombs-baseline", "sanityCheck")
-f1s_10s = np.array(read_f1_score("dds-TA-randomCombs-baseline"))
-combinations_fair = get_combination("dds-TA-randomCombs-fairAlloc", "sanityCheck")
-f1s_fair = np.array(read_f1_score("dds-TA-randomCombs-fairAlloc"))
+combinations_dds_inferDiff = get_combination("dds-TA-randomCombs-inferdiff-265", "sanityCheck")
+f1s_dds_inferDiff = np.array(read_f1_score("dds-TA-randomCombs-inferdiff-265"))
+combinations_10s = get_combination("dds-TA-randomCombs-baseline-265", "sanityCheck")
+f1s_10s = np.array(read_f1_score("dds-TA-randomCombs-baseline-265"))
+combinations_fair = get_combination("dds-TA-randomCombs-fairAlloc-265", "sanityCheck")
+f1s_fair = np.array(read_f1_score("dds-TA-randomCombs-fairAlloc-265"))
 
 
 # Process DDS
@@ -134,6 +134,6 @@ axs.set_ylabel("Average F1 Score")
 plt.ylim([0.7, 1.0])
 plt.legend(loc="upper right", bbox_to_anchor=(1.25, 1.35),ncol=3,frameon=False, handlelength=1.5, columnspacing=1, handletextpad=0.2)
 # plt.savefig("../../concierge-perf.pdf", bbox_inches='tight')
-plt.savefig("./concierge-perf.pdf", bbox_inches='tight')
-# plt.savefig("./concierge-perf.png", bbox_inches='tight')
+# plt.savefig("./concierge-perf.pdf", bbox_inches='tight')
+plt.savefig("./concierge-perf.png", bbox_inches='tight')
 # plt.show()

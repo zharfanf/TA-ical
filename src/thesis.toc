@@ -31,13 +31,15 @@
 \contentsline {chapter}{\numberline {3}ANALISIS DAN PERANCANGAN}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Model Desain}{17}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}\textit {Resource Allocator}}{17}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Implementasi}{17}{section.3.2}%
-\contentsline {chapter}{\numberline {4}EVALUASI DAN PEMBAHASAN}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Skenario Pengujian}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Hasil Pengujian}{18}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Pembahasan}{19}{section.4.4}%
-\contentsline {chapter}{\numberline {5}PENUTUP}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{20}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{20}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{21}{chapter*.22}%
+\contentsline {section}{\numberline {3.2}Implementasi}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Initialization}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Profiling}{20}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}EVALUASI DAN PEMBAHASAN}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Skenario Pengujian}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Hasil Pengujian}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pembahasan}{22}{section.4.4}%
+\contentsline {chapter}{\numberline {5}PENUTUP}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{23}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{24}{chapter*.23}%
