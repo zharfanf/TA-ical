@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  6 JUN 2024 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  6 JUN 2024 23:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1728,7 +1728,7 @@ BAB 2.
 Package svg Info: Last page of `./svg-inkscape/grpc_svg-tex.pdf' is 1 on input 
 line 59.
  (./svg-inkscape/grpc_svg-tex.pdf_tex
-<./svg-inkscape/grpc_svg-tex.pdf, id=462, page=1, 415.5525pt x 246.1215pt>
+<./svg-inkscape/grpc_svg-tex.pdf, id=464, page=1, 415.5525pt x 246.1215pt>
 File: ./svg-inkscape/grpc_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/grpc_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/grpc_svg-tex.pdf , page1 used on input 
@@ -1738,7 +1738,7 @@ line 56.
 Package svg Info: Last page of `./svg-inkscape/Obj_Tree_svg-tex.pdf' is 1 on in
 put line 139.
  (./svg-inkscape/Obj_Tree_svg-tex.pdf_tex
-<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=479, page=1, 727.96968pt x 322.95656pt
+<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=481, page=1, 727.96968pt x 322.95656pt
 >
 File: ./svg-inkscape/Obj_Tree_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Obj_Tree_svg-tex.pdf, page 1>
@@ -1940,7 +1940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 Package svg Info: Last page of `./svg-inkscape/Resource_Allocator_svg-tex.pdf' 
 is 1 on input line 238.
 (./svg-inkscape/Resource_Allocator_svg-tex.pdf_tex
-<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=484, page=1, 414.79968pt x 6
+<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=486, page=1, 414.79968pt x 6
 55.69969pt>
 File: ./svg-inkscape/Resource_Allocator_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Resource_Allocator_svg-tex.pdf, page 1>
@@ -2091,7 +2091,7 @@ Underfull \hbox (badness 1215) in paragraph at lines 15--15
 Package svg Info: Last page of `./svg-inkscape/resourceAlloc_simple_svg-tex.pdf
 ' is 1 on input line 24.
 (./svg-inkscape/resourceAlloc_simple_svg-tex.pdf_tex
-<./svg-inkscape/resourceAlloc_simple_svg-tex.pdf, id=763, page=1, 799.48688pt x
+<./svg-inkscape/resourceAlloc_simple_svg-tex.pdf, id=765, page=1, 799.48688pt x
  340.27126pt>
 File: ./svg-inkscape/resourceAlloc_simple_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/resourceAlloc_simple_svg-tex.pdf, page 1>
@@ -2109,7 +2109,7 @@ ro-ses se-lan-jut-nya ada-lah
 Package svg Info: Last page of `./svg-inkscape/init_svg-tex.pdf' is 1 on input 
 line 46.
 (./svg-inkscape/init_svg-tex.pdf_tex
-<./svg-inkscape/init_svg-tex.pdf, id=776, page=1, 633.86812pt x 91.84312pt>
+<./svg-inkscape/init_svg-tex.pdf, id=778, page=1, 633.86812pt x 91.84312pt>
 File: ./svg-inkscape/init_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/init_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/init_svg-tex.pdf , page1 used on input 
@@ -2136,7 +2136,19 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 68.
-[19]) (./chapters/chapter-4.tex [20]
+[19]
+Package svg Info: Last page of `./svg-inkscape/profiling_svg-tex.pdf' is 1 on i
+nput line 105.
+ (./svg-inkscape/profiling_svg-tex.pdf_tex
+<./svg-inkscape/profiling_svg-tex.pdf, id=805, page=1, 663.22781pt x 76.78688pt
+>
+File: ./svg-inkscape/profiling_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/profiling_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/profiling_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 331.61389pt x 38.39334pt.
+)) (./chapters/chapter-4.tex
+[20 <./svg-inkscape/profiling_svg-tex.pdf>]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -2195,13 +2207,13 @@ See the caption package documentation for explanation.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B8A7ECCC21E6B2E2C1DA9C0C657E6563;4903.
+(rerunfilecheck)             Checksum: EDBE6F3156CD3506DB29B78F932623A3;4903.
  ) 
 Here is how much of TeX's memory you used:
- 40983 strings out of 478268
- 811952 string characters out of 5846347
- 1218927 words of memory out of 5000000
- 58125 multiletter control sequences out of 15000+600000
+ 40999 strings out of 478268
+ 812528 string characters out of 5846347
+ 1218989 words of memory out of 5000000
+ 58136 multiletter control sequences out of 15000+600000
  521720 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,19n,120p,1279b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2218,11 +2230,11 @@ pe1/urw/zapfding/uzdr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
 c/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/z
 tmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (44 pages, 688069
+Output written on /Users/macbook-air/TA-ical/build/thesis.pdf (44 pages, 693138
  bytes).
 PDF statistics:
- 937 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
- 162 named destinations out of 1000 (max. 500000)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 757 compressed objects within 8 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 

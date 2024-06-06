@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex thesis"] 1717672747 "thesis.aux" "thesis.bbl" "thesis" 1717672749
+["bibtex thesis"] 1717692929 "thesis.aux" "thesis.bbl" "thesis" 1717692997
   "./apalike.bst" 1716291181 24742 cc0c8c5812f639cc6adefe8de3236c31 ""
   "references.bib" 1717415073 20634 a8d2108ce89e2e94e9f0961be574f7e1 ""
-  "thesis.aux" 1717672749 13058 565a9fbd8614a83d4d941fae36c69841 "pdflatex"
+  "thesis.aux" 1717692929 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1717672747 "/Users/macbook-air/TA-ical/src/thesis.tex" "thesis.pdf" "thesis" 1717672749
+["pdflatex"] 1717692997 "/Users/macbook-air/TA-ical/src/thesis.tex" "thesis.pdf" "thesis" 1717692997
   "/Users/macbook-air/TA-ical/src/thesis.tex" 1716884380 4586 042bfe2051250928775d0a4a591159ad ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -310,7 +310,7 @@
   "chapters/authorization-single-advisor.tex" 1716276068 1035 e4838fbae37a4a7e869e45045ba68f8b ""
   "chapters/chapter-1.tex" 1716455997 10586 0bae32dfe046a16a3d6b1f191fb47716 ""
   "chapters/chapter-2.tex" 1717491313 31740 f4d23f06d623b8f5a54a9d629133d958 ""
-  "chapters/chapter-3.tex" 1717672746 7773 fdd4092f5b080c99e0535c0b7ce64fb9 ""
+  "chapters/chapter-3.tex" 1717692992 8733 0585603511f468257f4e79bfaea7853a ""
   "chapters/chapter-4.tex" 1716276068 184 6bc1af5fd825284394728699628d755e ""
   "chapters/chapter-5.tex" 1716276068 78 dfcaa5d6e360f9579646d01e252e6119 ""
   "chapters/cover.tex" 1716276068 1044 ac4da4e16edc48e4821c0d8dcf7c2e06 ""
@@ -325,6 +325,7 @@
   "resources/cover-ganesha.jpg" 1716276068 199078 b0deb353b173e7d1d8c6bf9a4060386d ""
   "resources/grpc.svg" 1716798594 114389 a8df577af62ad81e8575cbf2f1131af8 ""
   "resources/init.svg" 1717662253 9167 ba404067c63e02f5d53d541b4227e06a ""
+  "resources/profiling.svg" 1717691214 7434 e379e47cb00018485d41a9401885725d ""
   "resources/resourceAlloc_simple.svg" 1717580791 16260 a4360af403f3db9b5c73b0dfbf96a5b3 ""
   "svg-inkscape/Obj_Tree_svg-tex.pdf" 1717488667 85532 d9ecdd80637bad764ed0afea8c38fc0d ""
   "svg-inkscape/Obj_Tree_svg-tex.pdf_tex" 1717488667 2079 6c261c910cb9c4d2f770e9265f37f0f9 ""
@@ -336,16 +337,13 @@
   "svg-inkscape/init_svg-tex.pdf_tex" 1717662642 2070 3fa6b339bd62a7670a9ef7a3fefc3aad ""
   "svg-inkscape/resourceAlloc_simple_svg-tex.pdf" 1717581686 10629 926c8669616251483510b1e3977413bf ""
   "svg-inkscape/resourceAlloc_simple_svg-tex.pdf_tex" 1717581686 2102 25b84ac278c95057f552e0c51013b349 ""
-  "thesis.app" 1717672749 200 4ce4d138ad1dfee9570a3632e825534f "pdflatex"
-  "thesis.aux" 1717672749 13058 565a9fbd8614a83d4d941fae36c69841 "pdflatex"
-  "thesis.bbl" 1717672747 5966 3923aae828460da8be1bf80ec7d464ee "bibtex thesis"
-  "thesis.gls-abr" 1717671706 1000 8aca4ce0196a69a1a15c4ad1133080e3 ""
-  "thesis.lof" 1717672749 744 0534571b19c2a0c5e11b11941de020de "pdflatex"
-  "thesis.lot" 1717672749 1046 4ab09dbe84cb12fccbe86904365a2776 "pdflatex"
-  "thesis.out" 1717672749 4903 b8a7eccc21e6b2e2c1da9c0c657e6563 "pdflatex"
-  "thesis.syi" 1717671706 6 9f404503043ec80c08484be9f659189e ""
+  "thesis.app" 1717692996 200 b275b433072f8182a63fffffb155f542 "pdflatex"
+  "thesis.aux" 0 -1 0 "pdflatex"
+  "thesis.bbl" 0 -1 0 "bibtex thesis"
+  "thesis.gls-abr" 1717672778 1000 8aca4ce0196a69a1a15c4ad1133080e3 ""
+  "thesis.out" 0 -1 0 "pdflatex"
+  "thesis.syi" 1717672778 6 9f404503043ec80c08484be9f659189e ""
   "thesis.tex" 1716884380 4586 042bfe2051250928775d0a4a591159ad ""
-  "thesis.toc" 1717672749 3475 da45375f1365b2e08f76d968c794708a "pdflatex"
   (generated)
   "thesis.app"
   "thesis.aux"

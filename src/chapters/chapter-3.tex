@@ -100,6 +100,18 @@
 
     \subsection{Profiling}
 
+        \begin{figure}[tbh]
+            \centering
+            \includesvg[scale=0.5]{./resources/profiling.svg}
+            \caption{Initialization Flow Chart}\label{fig:profiling}
+        \end{figure} 
+
+        Tahapan kedua adalah \textit{Profiling}, Pada tahapan ini akan terjadi interaksi antara resource allocator dan \gls{vap}. Proses-proses yang terjadi dapat dilihat pada gambar \ref{fig:profiling}
+        Pada notify client, resource allocator akan memberi notifikasi kepada \gls{vap} sebagai persiapan untuk melakukan profiling. Notifikasi yang diberika termasuk pemberian informasi mengenai seberapa
+        besar delta bandwidth yang diberikan. Setelah diberikan notifikasi, \gls{vap} akan menunggu hingga inference selesai dan siap untuk proses profiling dengan memberi notifikasi kepada resource allocator.
+
+        Hal ini berlanjut kepada proses selanjutnya yakni get inferdiff yang pseudocode nya seperti terlihat pada algoritma x di atas.
+
 
     % \begin{figure}[tbh]
     %     \centering
