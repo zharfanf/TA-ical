@@ -110,7 +110,102 @@
         Pada notify client, resource allocator akan memberi notifikasi kepada \gls{vap} sebagai persiapan untuk melakukan profiling. Notifikasi yang diberika termasuk pemberian informasi mengenai seberapa
         besar delta bandwidth yang diberikan. Setelah diberikan notifikasi, \gls{vap} akan menunggu hingga inference selesai dan siap untuk proses profiling dengan memberi notifikasi kepada resource allocator.
 
-        Hal ini berlanjut kepada proses selanjutnya yakni get inferdiff yang pseudocode nya seperti terlihat pada algoritma x di atas.
+        \begin{algorithm}[tbh]
+        \caption{Algoritma notify clients}\label{alg:notifyClients}
+        \begin{algorithmic}[1]
+        \Require $bandwidthDelta$
+        \For{$client$ in $clients$}
+        \State $client.prepareProfiling(bandwidthDelta)$
+        \EndFor
+        \State $waitForAllACK()$
+        \end{algorithmic}
+        \end{algorithm}
+
+        Hal ini berlanjut kepada proses selanjutnya yakni get inferdiff yang pseudocode nya seperti terlihat pada algoritma x di atas. Pertama-tama resource allocator akan menyuruh vap untuk menaikan bandwith terlebih
+        dahulu, lalu tiap vap akan melakukan inference dan diperoleh hasil deteksi objek. selanjutnya hasil dari objek deteksi tersebut akan dibandingkan dengan bandwidth saaat ini. Lalu bandwidth diturunkan, akan dilakukan
+        inferensi lagi, hasilnya akan dibandingkan. Lalu kedua hasil ini dinamakan sensitivity atau inferDiff dan akan dikirim ke resource allocator.
+
+        \begin{algorithm}
+            \caption{Algoritma get Inferdiff}\label{alg:getInferdiff}
+            \begin{multicols}{2}
+                \begin{algorithmic}
+                    \scriptsize
+                    \State $Server Side$
+                    \For{$client$ in $clients$}
+                    \State $client.getInferDiff()$
+                    \EndFor
+                \end{algorithmic}
+                \columnbreak
+                \begin{algorithmic}
+                    \scriptsize
+                    \State $Client Side$
+                    \Require $currentResult$
+                    \Ensure $highSensitivity$ \& $lowSensitivity$
+                    \State $currentBW \gets currentBW + deltaBW$
+                    \State $changeToBestConfig(currentBW)$
+                    \State $highResult \gets analyzeVideo()$
+                    \State $highSensitivity \gets eval(currentResult,\ highResult)$
+                    \State $currentBW \gets currentBW - 2 * deltaBW$
+                    \State $changeToBestConfig(currentBW)$
+                    \State $lowResult \gets analyzeVideo()$
+                    \State $lowSensitivity \gets eval(lowResult,\ currentResult)$
+                    \State $sendToServer(highSensitivity,\ lowSensitivity)$
+                \end{algorithmic}
+            \end{multicols}
+        \end{algorithm}
+
+        inferDiff adalah sebuah satuan yang digunakan untuk mengukur seberapa sensitif sebuah \gls{vap} terhadap perubahan bandwidth. Pada keadaan ideal, pengukuran sensitivity
+        adalah melakukan pengurangan akurasi antara akurasi dengan bandwidth saat ini dan bandwidth saat dinaikan atau diturunkan.
+
+        sehingga pseudocodenya adalah sebagai berikut
+
+        \begin{algorithm}[tbh]
+        \caption{Algoritma notify clients}\label{alg:calcF1}
+        \begin{algorithmic}[1]
+        \Function{calcF1}{result, gt}
+            \State $f1Score \gets eval(result, gt)$
+            \State \textbf{return} $f1Score$
+        \EndFunction
+        \State $highSensitivity \gets calcF1(highRes, gt) - calcF1(currRes, gt)$
+        \State $lowSensitivity \gets calcF1(currRes, gt) - calcF1(lowRes, gt)$
+        \end{algorithmic}
+        \end{algorithm}
+
+        Namun karena ground truth tidak mungkin diketahui dan diperoleh saat program berlangsung, maka dirumuskanlah sebuah istilah baru, yakni inferDiff
+        yang memperlakukan highResult sebagai ground truth relatif terhadap currentResult, dan currentResult sebagai groundTruth relatif terhadap lowResult
+        sehingga perhitungannya adalah sebagai berikut
+
+        \begin{algorithm}[tbh]
+        \caption{Algoritma calculate inferDiff}\label{alg:inferDiff}
+        \begin{algorithmic}[1]
+        \Function{calcF1}{result, gt}
+            \State $f1Score \gets eval(result, gt)$
+            \State \textbf{return} $f1Score$
+        \EndFunction
+        \State $highinferDiff \gets calcF1(currRes, highRes)$
+        \State $lowinferDiff \gets calcF1(lowRes, currRes)$
+        \Comment{currRes = currentRes, highRes = highResult, lowRes = lowResult}
+        \end{algorithmic}
+        \end{algorithm}
+
+        Walaupun tidak ideal, namun metode seperti ini berkolerasi positif terhadap perhitungan idealnya ketika gt nya diketahui. 
+        Sehingga dapat digunakan secara real-time
+        
+
+
+
+
+
+
+        % \begin{equation}
+            
+        % \end{equation}
+
+
+    \subsection{Optimization}
+
+
+    \subsection{Allocation}
 
 
     % \begin{figure}[tbh]
