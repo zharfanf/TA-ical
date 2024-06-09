@@ -34,14 +34,15 @@
 \contentsline {section}{\numberline {3.2}Implementasi}{18}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Initialization}{18}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Profiling}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Optimization}{22}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Allocation}{22}{subsection.3.2.4}%
-\contentsline {chapter}{\numberline {4}EVALUASI DAN PEMBAHASAN}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Skenario Pengujian}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Hasil Pengujian}{23}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Pembahasan}{24}{section.4.4}%
-\contentsline {chapter}{\numberline {5}PENUTUP}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{25}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{25}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{26}{chapter*.24}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}inferDiff}{22}{subsubsection.3.2.2.1}%
+\contentsline {subsection}{\numberline {3.2.3}Optimization}{24}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Allocation}{26}{subsection.3.2.4}%
+\contentsline {chapter}{\numberline {4}EVALUASI DAN PEMBAHASAN}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Skenario Pengujian}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Hasil Pengujian}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pembahasan}{28}{section.4.4}%
+\contentsline {chapter}{\numberline {5}PENUTUP}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{29}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{30}{chapter*.26}%

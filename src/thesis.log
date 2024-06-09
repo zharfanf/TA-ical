@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  7 JUN 2024 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.9)  9 JUN 2024 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1122,11 +1122,11 @@ Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 \glo@abbreviations@file=\write6
 \openout6 = `thesis.glo-abr'.
 
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 273.
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 274.
 \glo@symbols@file=\write7
 \openout7 = `thesis.syg'.
 
-Package glossaries Info: Writing glossary file thesis.syg on input line 273.
+Package glossaries Info: Writing glossary file thesis.syg on input line 274.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 23.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
@@ -1429,12 +1429,12 @@ Overfull \hbox (7.54721pt too wide) in alignment at lines 2--2
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 16--16
+Underfull \hbox (badness 7116) in paragraph at lines 19--19
 []|\OT1/ntxtlf/m/n/12 Joint Con-fi-gu-ra-tion Adap-ta-tion and
  []
 
 
-Overfull \hbox (7.54721pt too wide) in alignment at lines 2--20
+Overfull \hbox (7.54721pt too wide) in alignment at lines 2--23
  [] [] [] 
  []
 
@@ -1453,7 +1453,7 @@ BAB 2.
 ] [6]
 Package svg Info: Last page of `./svg-inkscape/grpc_svg-tex.pdf' is 1 on input line 59.
  (./svg-inkscape/grpc_svg-tex.pdf_tex
-<./svg-inkscape/grpc_svg-tex.pdf, id=468, page=1, 415.5525pt x 246.1215pt>
+<./svg-inkscape/grpc_svg-tex.pdf, id=475, page=1, 415.5525pt x 246.1215pt>
 File: ./svg-inkscape/grpc_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/grpc_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/grpc_svg-tex.pdf , page1 used on input line 56.
@@ -1461,7 +1461,7 @@ Package pdftex.def Info: ./svg-inkscape/grpc_svg-tex.pdf , page1 used on input l
 ) [7 <./svg-inkscape/grpc_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Obj_Tree_svg-tex.pdf' is 1 on input line 139.
  (./svg-inkscape/Obj_Tree_svg-tex.pdf_tex
-<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=485, page=1, 1140.51094pt x 597.4847pt>
+<./svg-inkscape/Obj_Tree_svg-tex.pdf, id=492, page=1, 1140.51094pt x 597.4847pt>
 File: ./svg-inkscape/Obj_Tree_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Obj_Tree_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Obj_Tree_svg-tex.pdf , page1 used on input line 56.
@@ -1658,7 +1658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
 Package svg Info: Last page of `./svg-inkscape/Resource_Allocator_svg-tex.pdf' is 1 on input line 238.
 (./svg-inkscape/Resource_Allocator_svg-tex.pdf_tex
-<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=490, page=1, 414.79968pt x 655.69969pt>
+<./svg-inkscape/Resource_Allocator_svg-tex.pdf, id=497, page=1, 414.79968pt x 655.69969pt>
 File: ./svg-inkscape/Resource_Allocator_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Resource_Allocator_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Resource_Allocator_svg-tex.pdf , page1 used on input line 56.
@@ -1771,38 +1771,38 @@ Underfull \hbox (badness 5726) in paragraph at lines 391--399
 [13] [14]) (./chapters/chapter-3.tex [15] [16 <./svg-inkscape/Resource_Allocator_svg-tex.pdf>]
 BAB 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 \OT1/ntxtlf/m/n/10.95 me-la-kuk-an alo-ka-si \OT1/ntxtlf/m/it/10.95 ban-dwi-dth
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 13--13
+Underfull \hbox (badness 4660) in paragraph at lines 14--14
 \OT1/ntxtlf/m/n/10.95 se-ca-ra te-pat dan efi-si-en yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 \OT1/ntxtlf/m/n/10.95 ber-tu-ju-an un-tuk me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 15--15
-[]|\OT1/ntxtlf/m/n/10.95 DDS ber-per-an da-lam op-ti-ma-si
+Underfull \hbox (badness 4467) in paragraph at lines 16--16
+[]|[]\OT1/ntxtlf/m/n/10.95 DDS[] ber-per-an da-lam op-ti-ma-si
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 15--15
+Underfull \hbox (badness 1137) in paragraph at lines 16--16
 \OT1/ntxtlf/m/n/10.95 pe-nga-tur-an kon-fi-gu-ra-si pa-ra-me-ter
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 15--15
+Underfull \hbox (badness 1215) in paragraph at lines 16--16
 \OT1/ntxtlf/m/n/10.95 peng-ko-de-an dan komp-re-si vi-deo
  []
 
-Package svg Info: Last page of `./svg-inkscape/resourceAlloc_simple_svg-tex.pdf' is 1 on input line 24.
+Package svg Info: Last page of `./svg-inkscape/resourceAlloc_simple_svg-tex.pdf' is 1 on input line 26.
 (./svg-inkscape/resourceAlloc_simple_svg-tex.pdf_tex
-<./svg-inkscape/resourceAlloc_simple_svg-tex.pdf, id=700, page=1, 799.48688pt x 340.27126pt>
+<./svg-inkscape/resourceAlloc_simple_svg-tex.pdf, id=710, page=1, 799.48688pt x 340.27126pt>
 File: ./svg-inkscape/resourceAlloc_simple_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/resourceAlloc_simple_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/resourceAlloc_simple_svg-tex.pdf , page1 used on input line 56.
@@ -1810,57 +1810,50 @@ Package pdftex.def Info: ./svg-inkscape/resourceAlloc_simple_svg-tex.pdf , page1
 ) [17
 
  <./svg-inkscape/resourceAlloc_simple_svg-tex.pdf>]
-Underfull \hbox (badness 3635) in paragraph at lines 37--40
-[]\OT1/ntxtlf/m/n/12 Setibanya sen-si-ti-vi-ty pa-da re-so-ur-ce allo-ca-tor, pro-ses se-lan-jut-nya ada-lah
- []
-
-Package svg Info: Last page of `./svg-inkscape/init_svg-tex.pdf' is 1 on input line 46.
-(./svg-inkscape/init_svg-tex.pdf_tex
-<./svg-inkscape/init_svg-tex.pdf, id=713, page=1, 633.86812pt x 91.84312pt>
+Package svg Info: Last page of `./svg-inkscape/init_svg-tex.pdf' is 1 on input line 49.
+ (./svg-inkscape/init_svg-tex.pdf_tex
+<./svg-inkscape/init_svg-tex.pdf, id=728, page=1, 633.86812pt x 91.84312pt>
 File: ./svg-inkscape/init_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/init_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/init_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 316.93405pt x 45.92284pt.
 ) [18 <./svg-inkscape/init_svg-tex.pdf>]
-LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 53.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
-File: ot1ntxtt.fd 2012/04/20 v3.1
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 57.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
-LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 53.
-
-Underfull \hbox (badness 1796) in paragraph at lines 59--62
-\OT1/ntxtlf/m/n/12 me-nan-dak-an per-i-o-de pro-fi-ling atau pe-nga-lo-ka-si-an ban-dwi-dth. Pa-ra-me-ter
- []
-
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 64.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 57.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 67.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 67.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 68.
-[19]
-Package svg Info: Last page of `./svg-inkscape/profiling_svg-tex.pdf' is 1 on input line 105.
+(Font)              scaled to size 10.0pt on input line 70.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 70.
+ [19]
+Package svg Info: Last page of `./svg-inkscape/profiling_svg-tex.pdf' is 1 on input line 109.
  (./svg-inkscape/profiling_svg-tex.pdf_tex
-<./svg-inkscape/profiling_svg-tex.pdf, id=741, page=1, 663.22781pt x 76.78688pt>
+<./svg-inkscape/profiling_svg-tex.pdf, id=756, page=1, 663.22781pt x 76.78688pt>
 File: ./svg-inkscape/profiling_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/profiling_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/profiling_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 331.61389pt x 38.39334pt.
-) [20 <./svg-inkscape/profiling_svg-tex.pdf>]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 132.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 134.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 165.
-
-Underfull \hbox (badness 1231) in paragraph at lines 174--177
-\OT1/ntxtlf/m/n/12 dan cur-ren-tRe-sult se-ba-gai gro-un-dTru-th re-la-tif ter-ha-dap lo-wRe-sult se-hing-ga
- []
-
-[21]) (./chapters/chapter-4.tex [22]
+) [20 <./svg-inkscape/profiling_svg-tex.pdf>] [21] [22] [23]
+Package svg Info: Last page of `./svg-inkscape/optimization_svg-tex.pdf' is 1 on input line 231.
+ (./svg-inkscape/optimization_svg-tex.pdf_tex
+<./svg-inkscape/optimization_svg-tex.pdf, id=806, page=1, 925.95938pt x 76.78688pt>
+File: ./svg-inkscape/optimization_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/optimization_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/optimization_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 370.37808pt x 30.7142pt.
+) [24 <./svg-inkscape/optimization_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/allocation_svg-tex.pdf' is 1 on input line 332.
+ (./svg-inkscape/allocation_svg-tex.pdf_tex
+<./svg-inkscape/allocation_svg-tex.pdf, id=834, page=1, 399.74344pt x 76.78688pt>
+File: ./svg-inkscape/allocation_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/allocation_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/allocation_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 199.8717pt x 38.39334pt.
+) [25]) (./chapters/chapter-4.tex [26 <./svg-inkscape/allocation_svg-tex.pdf>]
 BAB 4.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1874,14 +1867,14 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 11.
 
-[23
+[27
 
 ])
 
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 102.
 
-(./chapters/chapter-5.tex [24]
+(./chapters/chapter-5.tex [28]
 BAB 5.
 
 Package blindtext Warning: bahasa not defined, using English instead.
@@ -1892,16 +1885,16 @@ Package blindtext Warning: bahasa not defined, using English instead.
 Package blindtext Warning: bahasa not defined, using English instead.
 (blindtext)                 on input line 103.
 
-[25
+[29
 
-] (./thesis.bbl [26
+] (./thesis.bbl [30
 
 
-] [27]) [28] [29
+] [31]) [32] [33
 
 ] (./chapters/appendix-1.tex
 Lampiran A.
-) (./chapters/appendix-2.tex [30
+) (./chapters/appendix-2.tex [34
 
 
 
@@ -1909,31 +1902,31 @@ Lampiran A.
 Lampiran B.
 )
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 201.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 202.
 See the caption package documentation for explanation.
 
-[31
+[35
 
 ] (./thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EDBE6F3156CD3506DB29B78F932623A3;4903.
+(rerunfilecheck)             Checksum: 05C2859C6AC1A19AE465B6076131F069;4903.
  ) 
 Here is how much of TeX's memory you used:
- 41066 strings out of 478268
- 812312 string characters out of 5846347
- 1223260 words of memory out of 5000000
- 58193 multiletter control sequences out of 15000+600000
- 533310 words of font info for 161 fonts, out of 8000000 for 9000
+ 41157 strings out of 478268
+ 814516 string characters out of 5846347
+ 1223781 words of memory out of 5000000
+ 58269 multiletter control sequences out of 15000+600000
+ 521863 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,19n,120p,1310b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (46 pages, 661489 bytes).
+ 115i,18n,120p,1310b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on thesis.pdf (50 pages, 687143 bytes).
 PDF statistics:
- 902 PDF objects out of 1000 (max. 8388607)
- 742 compressed objects within 8 object streams
- 171 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 820 compressed objects within 9 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
